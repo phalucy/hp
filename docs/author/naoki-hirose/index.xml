@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Naoki Hirose | Ning Zhao&#39;s HP</title>
+    <link>https://zhaoning-airsea.io/author/naoki-hirose/</link>
+      <atom:link href="https://zhaoning-airsea.io/author/naoki-hirose/index.xml" rel="self" type="application/rss+xml" />
+    <description>Naoki Hirose</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 18 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhaoning-airsea.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Naoki Hirose</title>
+      <link>https://zhaoning-airsea.io/author/naoki-hirose/</link>
+    </image>
+    
+    <item>
+      <title>Atmospheric Response to a Diurnally Varying Sea Surface Temperature in the Tsushima Strait Area</title>
+      <link>https://zhaoning-airsea.io/talk/2019a/</link>
+      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://zhaoning-airsea.io/talk/2019a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>高解像度海面水温に対する対馬海峡域の大気応答</title>
+      <link>https://zhaoning-airsea.io/talk/2018c/</link>
+      <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://zhaoning-airsea.io/talk/2018c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Local Atmosphere Response to a High-resolution SST Dataset in the Tsushima Strait Area</title>
+      <link>https://zhaoning-airsea.io/talk/2018b/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://zhaoning-airsea.io/talk/2018b/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
