@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>kakenhi | Ning Zhao&#39;s HP</title>
-    <link>https://zhaoning-airsea.io/tag/kakenhi/</link>
-      <atom:link href="https://zhaoning-airsea.io/tag/kakenhi/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://www.zhaoning-airsea.io/tag/kakenhi/</link>
+      <atom:link href="http://www.zhaoning-airsea.io/tag/kakenhi/index.xml" rel="self" type="application/rss+xml" />
     <description>kakenhi</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://zhaoning-airsea.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>http://www.zhaoning-airsea.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>kakenhi</title>
-      <link>https://zhaoning-airsea.io/tag/kakenhi/</link>
+      <link>http://www.zhaoning-airsea.io/tag/kakenhi/</link>
     </image>
     
     <item>
       <title>海大陸における対流活動に対する日周期大気海洋相互作用の役割の解明</title>
-      <link>https://zhaoning-airsea.io/project/internal-project/</link>
+      <link>http://www.zhaoning-airsea.io/project/internal-project/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://zhaoning-airsea.io/project/internal-project/</guid>
+      <guid>http://www.zhaoning-airsea.io/project/internal-project/</guid>
       <description>&lt;p&gt;Clarify the role of the sub-daily scale air-sea interaction on the convection (both diurnal cycle and the Madden–Julian oscillation) and upper ocean in the tropical regions.&lt;/p&gt;
 </description>
     </item>
