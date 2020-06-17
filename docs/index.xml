@@ -70,18 +70,18 @@
     </item>
     
     <item>
-      <title>Sub-weekly Scale Interactions between the Sea of Japan and Extra-tropical Cyclones in Winter</title>
-      <link>https://phalucy.github.io/hp/talk/2018a/</link>
-      <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>https://phalucy.github.io/hp/talk/2018a/</guid>
+      <title>Modulation of Extratropical Cyclones by Previous Cyclones via the Sea Surface Temperature Anomaly Over the Sea of Japan in Winter</title>
+      <link>https://phalucy.github.io/hp/publication/zhao-2018/</link>
+      <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://phalucy.github.io/hp/publication/zhao-2018/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Modulation of Extratropical Cyclones by Previous Cyclones via the Sea Surface Temperature Anomaly Over the Sea of Japan in Winter</title>
-      <link>https://phalucy.github.io/hp/publication/zhao-2018/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://phalucy.github.io/hp/publication/zhao-2018/</guid>
+      <title>Sub-weekly Scale Interactions between the Sea of Japan and Extra-tropical Cyclones in Winter</title>
+      <link>https://phalucy.github.io/hp/talk/2018a/</link>
+      <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://phalucy.github.io/hp/talk/2018a/</guid>
       <description></description>
     </item>
     
@@ -128,23 +128,15 @@
     <item>
       <title>Intensification of the subpolar front in the Sea of Japan during winter cyclones</title>
       <link>https://phalucy.github.io/hp/publication/zhao-2016-a/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
       <guid>https://phalucy.github.io/hp/publication/zhao-2016-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Preliminary study on the frontogenesis and frontolysis of the oceanic temperature front in the Northwestern Pacific Ocean</title>
-      <link>https://phalucy.github.io/hp/publication/zhao-2015/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://phalucy.github.io/hp/publication/zhao-2015/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Preliminary study on the frontogenesis and frontolysis of the oceanic temperature front in the Northwestern Pacific Ocean</title>
       <link>https://phalucy.github.io/hp/publication/zhao-2016-b/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 15 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://phalucy.github.io/hp/publication/zhao-2016-b/</guid>
       <description></description>
     </item>
@@ -154,6 +146,14 @@
       <link>https://phalucy.github.io/hp/talk/2015a/</link>
       <pubDate>Fri, 25 Sep 2015 00:00:00 +0000</pubDate>
       <guid>https://phalucy.github.io/hp/talk/2015a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A simulation model of seawater vertical temperature by using back-propagation neural network</title>
+      <link>https://phalucy.github.io/hp/publication/zhao-2015/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://phalucy.github.io/hp/publication/zhao-2015/</guid>
       <description></description>
     </item>
     
@@ -184,7 +184,7 @@
     <item>
       <title>Frontogenesis and frontolysis of the subpolar front in the surface mixed layer of the Japan Sea</title>
       <link>https://phalucy.github.io/hp/publication/zhao-2014-a/</link>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 11 Feb 2014 00:00:00 +0000</pubDate>
       <guid>https://phalucy.github.io/hp/publication/zhao-2014-a/</guid>
       <description></description>
     </item>
@@ -192,7 +192,7 @@
     <item>
       <title>Seawater temperature model from Argo data by LM-BP neural network in Northwest Pacific Ocean</title>
       <link>https://phalucy.github.io/hp/publication/zhao-2012/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Aug 2012 00:00:00 +0000</pubDate>
       <guid>https://phalucy.github.io/hp/publication/zhao-2012/</guid>
       <description></description>
     </item>

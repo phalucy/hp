@@ -1,7 +1,7 @@
 ---
 title: "Seawater temperature model from Argo data by LM-BP neural network in Northwest Pacific Ocean"
-date: 2012-01-01
-publishDate: 2020-06-16T05:52:31.385713Z
+date: 2012-08-01
+publishDate: 2012-08-01
 authors: ["Zhen Han", "Ning Zhao"]
 publication_types: ["2"]
 abstract: ""

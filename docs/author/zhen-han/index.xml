@@ -5,7 +5,7 @@
     <link>https://phalucy.github.io/hp/author/zhen-han/</link>
       <atom:link href="https://phalucy.github.io/hp/author/zhen-han/index.xml" rel="self" type="application/rss+xml" />
     <description>Zhen Han</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 15 Jan 2016 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://phalucy.github.io/hp/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Zhen Han</title>
@@ -14,17 +14,17 @@
     
     <item>
       <title>Preliminary study on the frontogenesis and frontolysis of the oceanic temperature front in the Northwestern Pacific Ocean</title>
-      <link>https://phalucy.github.io/hp/publication/zhao-2015/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://phalucy.github.io/hp/publication/zhao-2015/</guid>
+      <link>https://phalucy.github.io/hp/publication/zhao-2016-b/</link>
+      <pubDate>Fri, 15 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://phalucy.github.io/hp/publication/zhao-2016-b/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Preliminary study on the frontogenesis and frontolysis of the oceanic temperature front in the Northwestern Pacific Ocean</title>
-      <link>https://phalucy.github.io/hp/publication/zhao-2016-b/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://phalucy.github.io/hp/publication/zhao-2016-b/</guid>
+      <title>A simulation model of seawater vertical temperature by using back-propagation neural network</title>
+      <link>https://phalucy.github.io/hp/publication/zhao-2015/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://phalucy.github.io/hp/publication/zhao-2015/</guid>
       <description></description>
     </item>
     
@@ -39,7 +39,7 @@
     <item>
       <title>Frontogenesis and frontolysis of the subpolar front in the surface mixed layer of the Japan Sea</title>
       <link>https://phalucy.github.io/hp/publication/zhao-2014-a/</link>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 11 Feb 2014 00:00:00 +0000</pubDate>
       <guid>https://phalucy.github.io/hp/publication/zhao-2014-a/</guid>
       <description></description>
     </item>
@@ -47,7 +47,7 @@
     <item>
       <title>Seawater temperature model from Argo data by LM-BP neural network in Northwest Pacific Ocean</title>
       <link>https://phalucy.github.io/hp/publication/zhao-2012/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Aug 2012 00:00:00 +0000</pubDate>
       <guid>https://phalucy.github.io/hp/publication/zhao-2012/</guid>
       <description></description>
     </item>
