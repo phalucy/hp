@@ -4,7 +4,7 @@ authors:
 - Ning Zhao
 - Nasuno Tomoe
 date: "2020-03-16T00:00:00Z"
-doi: " https://doi.org/10.1029/2020MS002058"
+doi: "10.1029/2020MS002058"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2020-04-01T00:00:00Z"
@@ -52,7 +52,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: []
+projects : []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
