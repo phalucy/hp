@@ -23,7 +23,7 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: "2019-03-18"
 
-authors: [Ning Zhao, Tiran Liu, Naoki Hirose]
+authors: [Ning Zhao, Tianran Liu, Naoki Hirose]
 tags: [oral]
 
 # Is this a featured talk? (true/false)
