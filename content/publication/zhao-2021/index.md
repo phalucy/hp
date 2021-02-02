@@ -18,7 +18,7 @@ tags:
 - '""'
 categories: []
 date: '2021-01-01'
-lastmod: 2021-01-24T19:59:47+09:00
+lastmod: 2021-02-02T09:41:52+09:00
 featured: false
 draft: false
 
@@ -36,7 +36,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-01-24T10:59:47.497968Z'
+publishDate: '2021-02-02T00:41:52.271327Z'
 publication_types:
 - '2'
 abstract: 'The transport and accumulation of moisture played an essential role in
