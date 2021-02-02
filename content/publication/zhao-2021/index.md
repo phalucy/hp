@@ -18,15 +18,15 @@ tags:
 - '""'
 categories: []
 date: '2021-01-01'
-lastmod: 2021-02-02T09:41:52+09:00
-featured: false
+lastmod: 2021-02-02T09:49:11+09:00
+featured: true
 draft: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ''
+  caption: 'Schematic view of the moisture transport occurred in the summer of 2021 '
   focal_point: ''
   preview_only: false
 
@@ -36,7 +36,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-02-02T00:41:52.271327Z'
+publishDate: '2021-02-02T00:49:11.536277Z'
 publication_types:
 - '2'
 abstract: 'The transport and accumulation of moisture played an essential role in
@@ -52,6 +52,6 @@ abstract: 'The transport and accumulation of moisture played an essential role i
   highlights the role of WPSH in moisture transport and demonstrated the importance
   of moisture uptake during transport.'
 publication: '*Geophysical Research Letters*'
-url_pdf: https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020MS002058
-doi: ''
+url_pdf: https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020GL091441
+doi: 10.1029/2020GL091441
 ---
