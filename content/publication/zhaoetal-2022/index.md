@@ -12,7 +12,7 @@ authors:
 tags: []
 categories: []
 date: '2022-01-01'
-lastmod: 2022-01-23T23:22:17+09:00
+lastmod: 2022-01-23T23:25:15+09:00
 featured: false
 draft: false
 
@@ -30,7 +30,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-01-23T14:22:16.414875Z'
+publishDate: '2022-01-23T14:25:15.073835Z'
 publication_types:
 - '2'
 abstract: This study investigated the diurnal cycle of convection over Sumatra Island
