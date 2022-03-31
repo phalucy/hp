@@ -14,7 +14,7 @@ role: Researcher
 
 # Organizations/Affiliations
 organizations:
-- name: DCOP, RIGC, Japan Agency for Marine-Earth Science and Technology
+- name: MCM, CCOAR, RIGC, Japan Agency for Marine-Earth Science and Technology
   url: "https://www.jamstec.go.jp/dcop/e/"
 
 # Short bio (displayed in user profile at end of posts)
@@ -75,4 +75,4 @@ user_groups:
 - Visitors
 ---
 
-I'm working at DCOP, RIGC in JAMSTEC as a researcher. I'm interested in the short-term air-sea interactions, including the processes between extra-tropical cyclones and marginal seas, interactions between the upper ocean and the diurnal cycle within the Maritime Continent, and the life cycle of atmospheric rivers (AR).
+I'm working at MCM, CCOAR, RIGC in JAMSTEC as a researcher. I'm interested in the short-term air-sea interactions, including the processes between extra-tropical cyclones and marginal seas, interactions between the upper ocean and the diurnal cycle within the Maritime Continent, and the life cycle of atmospheric rivers (AR).
