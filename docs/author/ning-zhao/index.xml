@@ -5,7 +5,7 @@
     <link>https://phalucy.github.io/hp/author/ning-zhao/</link>
       <atom:link href="https://phalucy.github.io/hp/author/ning-zhao/index.xml" rel="self" type="application/rss+xml" />
     <description>Ning Zhao</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://phalucy.github.io/hp/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Ning Zhao</title>
@@ -13,18 +13,34 @@
     </image>
     
     <item>
-      <title>A Modified U-Net Model for Predicting the Sea Surface Salinity over the Western Pacific Ocean</title>
-      <link>https://phalucy.github.io/hp/publication/zhang-2023/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://phalucy.github.io/hp/publication/zhang-2023/</guid>
+      <title>Moisture sources of the Tohoku heavy rainfalls in August 2022 and the influences of tropical storms</title>
+      <link>https://phalucy.github.io/hp/publication/zhaoetal-2023/</link>
+      <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://phalucy.github.io/hp/publication/zhaoetal-2023/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Moisture sources of the Tohoku heavy rainfalls in August 2022 and the influences of tropical storms</title>
-      <link>https://phalucy.github.io/hp/publication/zhaoetal-2023/</link>
+      <title>Distinct features of atmospheric rivers over the western North Pacific in post–El Niño and non-post–El Niño summers</title>
+      <link>https://phalucy.github.io/hp/publication/guoetal-2023/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://phalucy.github.io/hp/publication/guoetal-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monitoring Marine Pollution for Carbon Neutrality through a Deep Learning Method with Multi-Source Data Fusion</title>
+      <link>https://phalucy.github.io/hp/publication/wangetal-2023/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://phalucy.github.io/hp/publication/wangetal-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Modified U-Net Model for Predicting the Sea Surface Salinity over the Western Pacific Ocean</title>
+      <link>https://phalucy.github.io/hp/publication/zhang-2023/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://phalucy.github.io/hp/publication/zhaoetal-2023/</guid>
+      <guid>https://phalucy.github.io/hp/publication/zhang-2023/</guid>
       <description></description>
     </item>
     
