@@ -19,19 +19,20 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
   title = "Researcher"
-  company = "Dynamic Coupling of Ocean-Atmosphere-Land Research Program, Japan Agency for Marine-Earth Science and Technology"
-  company_url = "https://www.jamstec.go.jp/dcop"
+  company = "Center for Coupled Ocean-Atmosphere Research, Japan Agency for Marine-Earth Science and Technology"
+  company_url = "https://www.jamstec.go.jp/ccoar"
   location = "Yokosuka, Kanagawa, Japan"
   date_start = "2019-04-01"
   date_end = ""
   description = """
-  Group Leader: Dr. Kunio Yoneyama
-  
+  Director: Dr. Kunio Yoneyama
+
   Research Theme includes:
   
   * Air-sea interactions in Tropical regions
   * Diurnal Cycle
   * Madden-Julian Oscillation
+  * Extreme events
   """
 
 [[experience]]

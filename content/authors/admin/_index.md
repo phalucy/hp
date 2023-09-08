@@ -15,7 +15,7 @@ role: Researcher
 # Organizations/Affiliations
 organizations:
 - name: MCM, CCOAR, RIGC, Japan Agency for Marine-Earth Science and Technology
-  url: "https://www.jamstec.go.jp/dcop/e/"
+  url: "https://www.jamstec.go.jp/ccoar/e/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include short-term air-sea interactions, interaction between extratropical cyclones and marginal seas, the Madden-Julian Oscillation, and the diurnal cycles in Tropics.
@@ -23,6 +23,7 @@ bio: My research interests include short-term air-sea interactions, interaction 
 interests:
 - Air-Sea Interactions
 - Extratropical Cyclones and Marginal Seas
+- Moisture transport
 
 education:
   courses:

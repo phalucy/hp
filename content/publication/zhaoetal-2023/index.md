@@ -48,5 +48,6 @@ abstract: In August 2022, the Tohoku region of Japan suffered three major heavy 
   moisture gains nearby and the outer flows of tropical storms during heavy rainfalls
   in a northern region.
 publication: '*Geophysical Research Letters*'
+url_pdf: https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2023GL104166
 doi: 10.1029/2023GL104166
 ---
