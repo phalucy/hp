@@ -13,9 +13,9 @@ authors:
 - Bin Wang
 tags: []
 categories: []
-date: '2023-01-01'
-lastmod: 2023-08-04T23:50:42+08:00
-featured: false
+date: '2023-09-07'
+lastmod: 2023-09-08T11:34:42+09:00
+featured: true
 draft: false
 
 # Featured image
@@ -32,7 +32,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-08-04T15:50:40.773939Z'
+publishDate: '2023-09-07T15:50:40.773939Z'
 publication_types:
 - '2'
 abstract: In August 2022, the Tohoku region of Japan suffered three major heavy rainfall
