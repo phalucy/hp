@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://phalucy.github.io/hp/sitemap.xml
