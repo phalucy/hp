@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>kakenhi | Academic</title>
-    <link>https://example.com/tag/kakenhi/</link>
-      <atom:link href="https://example.com/tag/kakenhi/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://phalucy.github.io/hp/tag/kakenhi/</link>
+      <atom:link href="https://phalucy.github.io/hp/tag/kakenhi/index.xml" rel="self" type="application/rss+xml" />
     <description>kakenhi</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://phalucy.github.io/hp/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>kakenhi</title>
-      <link>https://example.com/tag/kakenhi/</link>
+      <link>https://phalucy.github.io/hp/tag/kakenhi/</link>
     </image>
     
     <item>
       <title>日本近海の温暖化は九州地方の豪雨を強化するか</title>
-      <link>https://example.com/project/colab-project/</link>
+      <link>https://phalucy.github.io/hp/project/colab-project/</link>
       <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/colab-project/</guid>
+      <guid>https://phalucy.github.io/hp/project/colab-project/</guid>
       <description>&lt;p&gt;Clarify the influences  of the rapid warming in the marginal seas near Japan on the extreme precipitation events over the Kyushu Island.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>海大陸における対流活動に対する日周期大気海洋相互作用の役割の解明</title>
-      <link>https://example.com/project/internal-project/</link>
+      <link>https://phalucy.github.io/hp/project/internal-project/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/internal-project/</guid>
+      <guid>https://phalucy.github.io/hp/project/internal-project/</guid>
       <description>&lt;p&gt;Clarify the role of the sub-daily scale air-sea interaction on the convection (both diurnal cycle and the Madden–Julian oscillation) and upper ocean in the tropical regions.&lt;/p&gt;
 </description>
     </item>

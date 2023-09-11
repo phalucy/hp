@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>subpolar front | Academic</title>
-    <link>https://example.com/tag/subpolar-front/</link>
-      <atom:link href="https://example.com/tag/subpolar-front/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://phalucy.github.io/hp/tag/subpolar-front/</link>
+      <atom:link href="https://phalucy.github.io/hp/tag/subpolar-front/index.xml" rel="self" type="application/rss+xml" />
     <description>subpolar front</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 15 Mar 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://phalucy.github.io/hp/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>subpolar front</title>
-      <link>https://example.com/tag/subpolar-front/</link>
+      <link>https://phalucy.github.io/hp/tag/subpolar-front/</link>
     </image>
     
     <item>
       <title>Intensification of the subpolar front in the Sea of Japan during winter cyclones</title>
-      <link>https://example.com/publication/zhao-2016-a/</link>
+      <link>https://phalucy.github.io/hp/publication/zhao-2016-a/</link>
       <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/zhao-2016-a/</guid>
+      <guid>https://phalucy.github.io/hp/publication/zhao-2016-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Frontogenesis and frontolysis of the subpolar front in the surface mixed layer of the Japan Sea</title>
-      <link>https://example.com/publication/zhao-2014-a/</link>
+      <link>https://phalucy.github.io/hp/publication/zhao-2014-a/</link>
       <pubDate>Tue, 11 Feb 2014 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/zhao-2014-a/</guid>
+      <guid>https://phalucy.github.io/hp/publication/zhao-2014-a/</guid>
       <description></description>
     </item>
     
