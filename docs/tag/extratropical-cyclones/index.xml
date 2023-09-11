@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>extratropical cyclones | Academic</title>
-    <link>https://example.com/tag/extratropical-cyclones/</link>
-      <atom:link href="https://example.com/tag/extratropical-cyclones/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://phalucy.github.io/hp/tag/extratropical-cyclones/</link>
+      <atom:link href="https://phalucy.github.io/hp/tag/extratropical-cyclones/index.xml" rel="self" type="application/rss+xml" />
     <description>extratropical cyclones</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 18 May 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://phalucy.github.io/hp/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>extratropical cyclones</title>
-      <link>https://example.com/tag/extratropical-cyclones/</link>
+      <link>https://phalucy.github.io/hp/tag/extratropical-cyclones/</link>
     </image>
     
     <item>
       <title>Modulation of Extratropical Cyclones by Previous Cyclones via the Sea Surface Temperature Anomaly Over the Sea of Japan in Winter</title>
-      <link>https://example.com/publication/zhao-2018/</link>
+      <link>https://phalucy.github.io/hp/publication/zhao-2018/</link>
       <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/zhao-2018/</guid>
+      <guid>https://phalucy.github.io/hp/publication/zhao-2018/</guid>
       <description></description>
     </item>
     
