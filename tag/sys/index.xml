@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sys | Ning Zhao&#39;s HP</title>
+    <link>https://phalucy.github.io/hp/tag/sys/</link>
+      <atom:link href="https://phalucy.github.io/hp/tag/sys/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sys</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 11 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://phalucy.github.io/hp/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Sys</title>
+      <link>https://phalucy.github.io/hp/tag/sys/</link>
+    </image>
+    
+    <item>
+      <title>[2023/09/11] Updated to the new Hugo version 5.</title>
+      <link>https://phalucy.github.io/hp/post/update/</link>
+      <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://phalucy.github.io/hp/post/update/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[2023/09/07] My recent study has been published in Geophysical Research Letters</title>
+      <link>https://phalucy.github.io/hp/post/2023-09-07/</link>
+      <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://phalucy.github.io/hp/post/2023-09-07/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[2023/03/21] Our study has been published in Remote Sensing</title>
+      <link>https://phalucy.github.io/hp/post/2023-03-21/</link>
+      <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://phalucy.github.io/hp/post/2023-03-21/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
