@@ -5,12 +5,20 @@
     <link>https://phalucy.github.io/hp/tag/sys/</link>
       <atom:link href="https://phalucy.github.io/hp/tag/sys/index.xml" rel="self" type="application/rss+xml" />
     <description>Sys</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 11 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Nov 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://phalucy.github.io/hp/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Sys</title>
       <link>https://phalucy.github.io/hp/tag/sys/</link>
     </image>
+    
+    <item>
+      <title>[2023/11/01] Our recent study (Seiki et al. 2023) has been published in SOLA.</title>
+      <link>https://phalucy.github.io/hp/post/2023-11-01/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://phalucy.github.io/hp/post/2023-11-01/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>[2023/09/11] Updated to the new Hugo version 5.</title>

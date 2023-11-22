@@ -5,12 +5,20 @@
     <link>https://phalucy.github.io/hp/publication/</link>
       <atom:link href="https://phalucy.github.io/hp/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Nov 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://phalucy.github.io/hp/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://phalucy.github.io/hp/publication/</link>
     </image>
+    
+    <item>
+      <title>Diurnal SST warming and the boreal summer intraseasonal oscillation in the Philippine Sea: contrasts between early and late summer</title>
+      <link>https://phalucy.github.io/hp/publication/seikietal-2023/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://phalucy.github.io/hp/publication/seikietal-2023/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Moisture sources of the Tohoku heavy rainfalls in August 2022 and the influences of tropical storms</title>
