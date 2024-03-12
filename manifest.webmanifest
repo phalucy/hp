@@ -1,6 +1,6 @@
 {
-  "name": "Ning Zhao's HP",
-  "short_name": "Ning Zhao's HP",
+  "name": "Zhao Ning's HP",
+  "short_name": "Zhao Ning's HP",
   "lang": "en-us",
   "theme_color": "#1565c0",
   "background_color": "#1565c0",
@@ -14,5 +14,5 @@
     "type": "image/png"
      }],
   "display": "standalone",
-  "start_url": "/?utm_source=web_app_manifest"
+  "start_url": "/hp/?utm_source=web_app_manifest"
 }
