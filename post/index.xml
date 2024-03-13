@@ -2,104 +2,104 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Zhao Ning&#39;s HP</title>
-    <link>http://localhost:1313/hp/post/</link>
-      <atom:link href="http://localhost:1313/hp/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://phalucy.github.io/hp/post/</link>
+      <atom:link href="https://phalucy.github.io/hp/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 Mar 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/hp/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://phalucy.github.io/hp/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
-      <link>http://localhost:1313/hp/post/</link>
+      <link>https://phalucy.github.io/hp/post/</link>
     </image>
     
     <item>
       <title>[2024/03/12] Pages for Talks (Presentations) have been removed. See my CV for a full list of my presentations.</title>
-      <link>http://localhost:1313/hp/post/2024-03-12/</link>
+      <link>https://phalucy.github.io/hp/post/2024-03-12/</link>
       <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/post/2024-03-12/</guid>
+      <guid>https://phalucy.github.io/hp/post/2024-03-12/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[2024/03/05] Our study (Wang et al. 2024) has been published in Environmental Research.</title>
-      <link>http://localhost:1313/hp/post/2024-03-06/</link>
+      <link>https://phalucy.github.io/hp/post/2024-03-06/</link>
       <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/post/2024-03-06/</guid>
+      <guid>https://phalucy.github.io/hp/post/2024-03-06/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[2023/11/22] Our recent study (Guo et al. 2023) has been published in Journal of Climate.</title>
-      <link>http://localhost:1313/hp/post/2023-11-22/</link>
+      <link>https://phalucy.github.io/hp/post/2023-11-22/</link>
       <pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/post/2023-11-22/</guid>
+      <guid>https://phalucy.github.io/hp/post/2023-11-22/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[2023/11/01] Our recent study (Seiki et al. 2023) has been published in SOLA.</title>
-      <link>http://localhost:1313/hp/post/2023-11-01/</link>
+      <link>https://phalucy.github.io/hp/post/2023-11-01/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/post/2023-11-01/</guid>
+      <guid>https://phalucy.github.io/hp/post/2023-11-01/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[2023/10/16] Presentation at the Seminar for Extreme Weathers @Nanjing University</title>
-      <link>http://localhost:1313/hp/post/2023-10-16/</link>
+      <link>https://phalucy.github.io/hp/post/2023-10-16/</link>
       <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/post/2023-10-16/</guid>
+      <guid>https://phalucy.github.io/hp/post/2023-10-16/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m pleased to give a presentation at Nanjing University and shared my works in tracing moisture sources of heavy rainfalls. During the seminar, Prof. Lei Zhao (University of Illinois Urbana-Champaign) also presented his wonderful works and shared his ideas in atmospheric boundary layer and urban microweather systems.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>[2023/09/17] Our study (Wang et al. 2023) has been published in Frontiers in Ecology and Evolution.</title>
-      <link>http://localhost:1313/hp/post/2023-09-17/</link>
+      <link>https://phalucy.github.io/hp/post/2023-09-17/</link>
       <pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/post/2023-09-17/</guid>
+      <guid>https://phalucy.github.io/hp/post/2023-09-17/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[2023/09/11] Updated to the new Hugo version 5.</title>
-      <link>http://localhost:1313/hp/post/update/</link>
+      <link>https://phalucy.github.io/hp/post/update/</link>
       <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/post/update/</guid>
+      <guid>https://phalucy.github.io/hp/post/update/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[2023/09/07] My recent study has been published in Geophysical Research Letters</title>
-      <link>http://localhost:1313/hp/post/2023-09-07/</link>
+      <link>https://phalucy.github.io/hp/post/2023-09-07/</link>
       <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/post/2023-09-07/</guid>
+      <guid>https://phalucy.github.io/hp/post/2023-09-07/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[2023/08/07] APL-ICAR Workshop (Aug 7-8) @JAMSTEC</title>
-      <link>http://localhost:1313/hp/post/2023-08-07/</link>
+      <link>https://phalucy.github.io/hp/post/2023-08-07/</link>
       <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/post/2023-08-07/</guid>
+      <guid>https://phalucy.github.io/hp/post/2023-08-07/</guid>
       <description>&lt;p&gt;I attended the APL-ICAR (NUIST) Workshop, which held at Miyoshi Hall, JAMSTEC Yokohama Campus, Japan.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>[2023/08/03] AOGS2023 in Singapore</title>
-      <link>http://localhost:1313/hp/post/2023-08-03/</link>
+      <link>https://phalucy.github.io/hp/post/2023-08-03/</link>
       <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/post/2023-08-03/</guid>
+      <guid>https://phalucy.github.io/hp/post/2023-08-03/</guid>
       <description>&lt;p&gt;I attended the 20th Annual Meeting of the Asia Oceania Geosciences Society held in Singapore&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>[2023/03/21] Our study has been published in Remote Sensing</title>
-      <link>http://localhost:1313/hp/post/2023-03-21/</link>
+      <link>https://phalucy.github.io/hp/post/2023-03-21/</link>
       <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/post/2023-03-21/</guid>
+      <guid>https://phalucy.github.io/hp/post/2023-03-21/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zhao Ning&#39;s HP</title>
-    <link>http://localhost:1313/hp/</link>
-      <atom:link href="http://localhost:1313/hp/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://phalucy.github.io/hp/</link>
+      <atom:link href="https://phalucy.github.io/hp/index.xml" rel="self" type="application/rss+xml" />
     <description>Zhao Ning&#39;s HP</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/hp/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://phalucy.github.io/hp/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Zhao Ning&#39;s HP</title>
-      <link>http://localhost:1313/hp/</link>
+      <link>https://phalucy.github.io/hp/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>http://localhost:1313/hp/talk/example-talk/</link>
+      <link>https://phalucy.github.io/hp/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/talk/example-talk/</guid>
+      <guid>https://phalucy.github.io/hp/talk/example-talk/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -34,248 +34,248 @@
     
     <item>
       <title>[2024/03/12] Pages for Talks (Presentations) have been removed. See my CV for a full list of my presentations.</title>
-      <link>http://localhost:1313/hp/post/2024-03-12/</link>
+      <link>https://phalucy.github.io/hp/post/2024-03-12/</link>
       <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/post/2024-03-12/</guid>
+      <guid>https://phalucy.github.io/hp/post/2024-03-12/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[2024/03/05] Our study (Wang et al. 2024) has been published in Environmental Research.</title>
-      <link>http://localhost:1313/hp/post/2024-03-06/</link>
+      <link>https://phalucy.github.io/hp/post/2024-03-06/</link>
       <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/post/2024-03-06/</guid>
+      <guid>https://phalucy.github.io/hp/post/2024-03-06/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Impact of Climate Change on the Dynamic Processes of Marine Environment and Feedback Mechanisms: An Overview</title>
-      <link>http://localhost:1313/hp/publication/wangetal-2024-b/</link>
+      <link>https://phalucy.github.io/hp/publication/wangetal-2024-b/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/publication/wangetal-2024-b/</guid>
+      <guid>https://phalucy.github.io/hp/publication/wangetal-2024-b/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Ocean carbon emission prediction and management measures based on artificial intelligence remote sensing estimation in the context of carbon neutrality</title>
-      <link>http://localhost:1313/hp/publication/wangetal-2024-a/</link>
+      <link>https://phalucy.github.io/hp/publication/wangetal-2024-a/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/publication/wangetal-2024-a/</guid>
+      <guid>https://phalucy.github.io/hp/publication/wangetal-2024-a/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>[2023/11/22] Our recent study (Guo et al. 2023) has been published in Journal of Climate.</title>
-      <link>http://localhost:1313/hp/post/2023-11-22/</link>
+      <link>https://phalucy.github.io/hp/post/2023-11-22/</link>
       <pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/post/2023-11-22/</guid>
+      <guid>https://phalucy.github.io/hp/post/2023-11-22/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[2023/11/01] Our recent study (Seiki et al. 2023) has been published in SOLA.</title>
-      <link>http://localhost:1313/hp/post/2023-11-01/</link>
+      <link>https://phalucy.github.io/hp/post/2023-11-01/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/post/2023-11-01/</guid>
+      <guid>https://phalucy.github.io/hp/post/2023-11-01/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Diurnal SST warming and the boreal summer intraseasonal oscillation in the Philippine Sea: contrasts between early and late summer</title>
-      <link>http://localhost:1313/hp/publication/seikietal-2023/</link>
+      <link>https://phalucy.github.io/hp/publication/seikietal-2023/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/publication/seikietal-2023/</guid>
+      <guid>https://phalucy.github.io/hp/publication/seikietal-2023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[2023/10/16] Presentation at the Seminar for Extreme Weathers @Nanjing University</title>
-      <link>http://localhost:1313/hp/post/2023-10-16/</link>
+      <link>https://phalucy.github.io/hp/post/2023-10-16/</link>
       <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/post/2023-10-16/</guid>
+      <guid>https://phalucy.github.io/hp/post/2023-10-16/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m pleased to give a presentation at Nanjing University and shared my works in tracing moisture sources of heavy rainfalls. During the seminar, Prof. Lei Zhao (University of Illinois Urbana-Champaign) also presented his wonderful works and shared his ideas in atmospheric boundary layer and urban microweather systems.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>[2023/09/17] Our study (Wang et al. 2023) has been published in Frontiers in Ecology and Evolution.</title>
-      <link>http://localhost:1313/hp/post/2023-09-17/</link>
+      <link>https://phalucy.github.io/hp/post/2023-09-17/</link>
       <pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/post/2023-09-17/</guid>
+      <guid>https://phalucy.github.io/hp/post/2023-09-17/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[2023/09/11] Updated to the new Hugo version 5.</title>
-      <link>http://localhost:1313/hp/post/update/</link>
+      <link>https://phalucy.github.io/hp/post/update/</link>
       <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/post/update/</guid>
+      <guid>https://phalucy.github.io/hp/post/update/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[2023/09/07] My recent study has been published in Geophysical Research Letters</title>
-      <link>http://localhost:1313/hp/post/2023-09-07/</link>
+      <link>https://phalucy.github.io/hp/post/2023-09-07/</link>
       <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/post/2023-09-07/</guid>
+      <guid>https://phalucy.github.io/hp/post/2023-09-07/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Moisture sources of the Tohoku heavy rainfalls in August 2022 and the influences of tropical storms</title>
-      <link>http://localhost:1313/hp/publication/zhaoetal-2023/</link>
+      <link>https://phalucy.github.io/hp/publication/zhaoetal-2023/</link>
       <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/publication/zhaoetal-2023/</guid>
+      <guid>https://phalucy.github.io/hp/publication/zhaoetal-2023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>日本近海の温暖化は九州地方の豪雨を強化するか</title>
-      <link>http://localhost:1313/hp/project/colab-project/</link>
+      <link>https://phalucy.github.io/hp/project/colab-project/</link>
       <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/project/colab-project/</guid>
+      <guid>https://phalucy.github.io/hp/project/colab-project/</guid>
       <description>&lt;p&gt;Clarify the influences  of the rapid warming in the marginal seas near Japan on the extreme precipitation events over the Kyushu Island.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Distinct features of atmospheric rivers over the western North Pacific in post–El Niño and non-post–El Niño summers</title>
-      <link>http://localhost:1313/hp/publication/guoetal-2023/</link>
+      <link>https://phalucy.github.io/hp/publication/guoetal-2023/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/publication/guoetal-2023/</guid>
+      <guid>https://phalucy.github.io/hp/publication/guoetal-2023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[2023/08/07] APL-ICAR Workshop (Aug 7-8) @JAMSTEC</title>
-      <link>http://localhost:1313/hp/post/2023-08-07/</link>
+      <link>https://phalucy.github.io/hp/post/2023-08-07/</link>
       <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/post/2023-08-07/</guid>
+      <guid>https://phalucy.github.io/hp/post/2023-08-07/</guid>
       <description>&lt;p&gt;I attended the APL-ICAR (NUIST) Workshop, which held at Miyoshi Hall, JAMSTEC Yokohama Campus, Japan.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>[2023/08/03] AOGS2023 in Singapore</title>
-      <link>http://localhost:1313/hp/post/2023-08-03/</link>
+      <link>https://phalucy.github.io/hp/post/2023-08-03/</link>
       <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/post/2023-08-03/</guid>
+      <guid>https://phalucy.github.io/hp/post/2023-08-03/</guid>
       <description>&lt;p&gt;I attended the 20th Annual Meeting of the Asia Oceania Geosciences Society held in Singapore&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Monitoring Marine Pollution for Carbon Neutrality through a Deep Learning Method with Multi-Source Data Fusion</title>
-      <link>http://localhost:1313/hp/publication/wangetal-2023/</link>
+      <link>https://phalucy.github.io/hp/publication/wangetal-2023/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/publication/wangetal-2023/</guid>
+      <guid>https://phalucy.github.io/hp/publication/wangetal-2023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[2023/03/21] Our study has been published in Remote Sensing</title>
-      <link>http://localhost:1313/hp/post/2023-03-21/</link>
+      <link>https://phalucy.github.io/hp/post/2023-03-21/</link>
       <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/post/2023-03-21/</guid>
+      <guid>https://phalucy.github.io/hp/post/2023-03-21/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Modified U-Net Model for Predicting the Sea Surface Salinity over the Western Pacific Ocean</title>
-      <link>http://localhost:1313/hp/publication/zhang-2023/</link>
+      <link>https://phalucy.github.io/hp/publication/zhang-2023/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/publication/zhang-2023/</guid>
+      <guid>https://phalucy.github.io/hp/publication/zhang-2023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Impacts of moisture supply from the subtropical western Pacific on the subtropical high and the atmospheric river during the heavy rain of 2020 in Japan</title>
-      <link>http://localhost:1313/hp/publication/zhaoetal-2022-b/</link>
+      <link>https://phalucy.github.io/hp/publication/zhaoetal-2022-b/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/publication/zhaoetal-2022-b/</guid>
+      <guid>https://phalucy.github.io/hp/publication/zhaoetal-2022-b/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Why Does Convection Weaken over Sumatra Island in an Active Phase of the MJO?</title>
-      <link>http://localhost:1313/hp/publication/zhaoetal-2022/</link>
+      <link>https://phalucy.github.io/hp/publication/zhaoetal-2022/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/publication/zhaoetal-2022/</guid>
+      <guid>https://phalucy.github.io/hp/publication/zhaoetal-2022/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Lagrangian view of moisture transport related to the heavy rainfall of July 2020 in Japan: Importance of the moistening over the subtropical regions</title>
-      <link>http://localhost:1313/hp/publication/zhao-2021/</link>
+      <link>https://phalucy.github.io/hp/publication/zhao-2021/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/publication/zhao-2021/</guid>
+      <guid>https://phalucy.github.io/hp/publication/zhao-2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Atmospheric Rivers over the Indo-Pacific and its Associations with Boreal Summer Intraseasonal Oscillation</title>
-      <link>http://localhost:1313/hp/publication/guo-2021/</link>
+      <link>https://phalucy.github.io/hp/publication/guo-2021/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/publication/guo-2021/</guid>
+      <guid>https://phalucy.github.io/hp/publication/guo-2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Summer Wind Effects on Coastal Upwelling in the Southwestern Yellow Sea</title>
-      <link>http://localhost:1313/hp/publication/wangetal-2021/</link>
+      <link>https://phalucy.github.io/hp/publication/wangetal-2021/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/publication/wangetal-2021/</guid>
+      <guid>https://phalucy.github.io/hp/publication/wangetal-2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>海大陸における対流活動に対する日周期大気海洋相互作用の役割の解明</title>
-      <link>http://localhost:1313/hp/project/internal-project/</link>
+      <link>https://phalucy.github.io/hp/project/internal-project/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/project/internal-project/</guid>
+      <guid>https://phalucy.github.io/hp/project/internal-project/</guid>
       <description>&lt;p&gt;Clarify the role of the sub-daily scale air-sea interaction on the convection (both diurnal cycle and the Madden–Julian oscillation) and upper ocean in the tropical regions.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>How does the air-sea coupling frequency affect convection during the MJO passage?</title>
-      <link>http://localhost:1313/hp/publication/zhao-2020/</link>
+      <link>https://phalucy.github.io/hp/publication/zhao-2020/</link>
       <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/publication/zhao-2020/</guid>
+      <guid>https://phalucy.github.io/hp/publication/zhao-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>How does the air-sea coupling frequency affect convection during the MJO passage?</title>
-      <link>http://localhost:1313/hp/talk/2020/</link>
+      <link>https://phalucy.github.io/hp/talk/2020/</link>
       <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/talk/2020/</guid>
+      <guid>https://phalucy.github.io/hp/talk/2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>How does the air-sea coupling frequency affect convection during the MJO passage?</title>
-      <link>http://localhost:1313/hp/talk/2019b/</link>
+      <link>https://phalucy.github.io/hp/talk/2019b/</link>
       <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/talk/2019b/</guid>
+      <guid>https://phalucy.github.io/hp/talk/2019b/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Atmospheric Response to a Diurnally Varying Sea Surface Temperature in the Tsushima Strait Area</title>
-      <link>http://localhost:1313/hp/talk/2019a/</link>
+      <link>https://phalucy.github.io/hp/talk/2019a/</link>
       <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/talk/2019a/</guid>
+      <guid>https://phalucy.github.io/hp/talk/2019a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>http://localhost:1313/hp/slides/example/</link>
+      <link>https://phalucy.github.io/hp/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/slides/example/</guid>
+      <guid>https://phalucy.github.io/hp/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -398,145 +398,145 @@ $$&lt;/p&gt;
     
     <item>
       <title>高解像度海面水温に対する対馬海峡域の大気応答</title>
-      <link>http://localhost:1313/hp/talk/2018c/</link>
+      <link>https://phalucy.github.io/hp/talk/2018c/</link>
       <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/talk/2018c/</guid>
+      <guid>https://phalucy.github.io/hp/talk/2018c/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Local Atmosphere Response to a High-resolution SST Dataset in the Tsushima Strait Area</title>
-      <link>http://localhost:1313/hp/talk/2018b/</link>
+      <link>https://phalucy.github.io/hp/talk/2018b/</link>
       <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/talk/2018b/</guid>
+      <guid>https://phalucy.github.io/hp/talk/2018b/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modulation of Extratropical Cyclones by Previous Cyclones via the Sea Surface Temperature Anomaly Over the Sea of Japan in Winter</title>
-      <link>http://localhost:1313/hp/publication/zhao-2018/</link>
+      <link>https://phalucy.github.io/hp/publication/zhao-2018/</link>
       <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/publication/zhao-2018/</guid>
+      <guid>https://phalucy.github.io/hp/publication/zhao-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sub-weekly Scale Interactions between the Sea of Japan and Extra-tropical Cyclones in Winter</title>
-      <link>http://localhost:1313/hp/talk/2018a/</link>
+      <link>https://phalucy.github.io/hp/talk/2018a/</link>
       <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/talk/2018a/</guid>
+      <guid>https://phalucy.github.io/hp/talk/2018a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>冬季東アジア周辺の温帯低気圧による海面水温変化・新たな可能性</title>
-      <link>http://localhost:1313/hp/talk/2017a/</link>
+      <link>https://phalucy.github.io/hp/talk/2017a/</link>
       <pubDate>Sat, 02 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/talk/2017a/</guid>
+      <guid>https://phalucy.github.io/hp/talk/2017a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Effect of SST in the Sea of Japan on the Winter Cyclones</title>
-      <link>http://localhost:1313/hp/talk/2017b/</link>
+      <link>https://phalucy.github.io/hp/talk/2017b/</link>
       <pubDate>Sat, 20 May 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/talk/2017b/</guid>
+      <guid>https://phalucy.github.io/hp/talk/2017b/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Effect of SST in the Sea of Japan on the Winter Cyclones</title>
-      <link>http://localhost:1313/hp/talk/2017c/</link>
+      <link>https://phalucy.github.io/hp/talk/2017c/</link>
       <pubDate>Tue, 11 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/talk/2017c/</guid>
+      <guid>https://phalucy.github.io/hp/talk/2017c/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Effect of SST in the Sea of Japan on the Winter Cyclones</title>
-      <link>http://localhost:1313/hp/talk/2016a/</link>
+      <link>https://phalucy.github.io/hp/talk/2016a/</link>
       <pubDate>Wed, 26 Oct 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/talk/2016a/</guid>
+      <guid>https://phalucy.github.io/hp/talk/2016a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>温帯低気圧における日本海の海面水温変化</title>
-      <link>http://localhost:1313/hp/talk/2016b/</link>
+      <link>https://phalucy.github.io/hp/talk/2016b/</link>
       <pubDate>Sat, 03 Sep 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/talk/2016b/</guid>
+      <guid>https://phalucy.github.io/hp/talk/2016b/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Intensification of the subpolar front in the Sea of Japan during winter cyclones</title>
-      <link>http://localhost:1313/hp/publication/zhao-2016-a/</link>
+      <link>https://phalucy.github.io/hp/publication/zhao-2016-a/</link>
       <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/publication/zhao-2016-a/</guid>
+      <guid>https://phalucy.github.io/hp/publication/zhao-2016-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Preliminary study on the frontogenesis and frontolysis of the oceanic temperature front in the Northwestern Pacific Ocean</title>
-      <link>http://localhost:1313/hp/publication/zhao-2016-b/</link>
+      <link>https://phalucy.github.io/hp/publication/zhao-2016-b/</link>
       <pubDate>Fri, 15 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/publication/zhao-2016-b/</guid>
+      <guid>https://phalucy.github.io/hp/publication/zhao-2016-b/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Intensification of the subpolar front in the Japan Sea during the winter cyclones</title>
-      <link>http://localhost:1313/hp/talk/2015a/</link>
+      <link>https://phalucy.github.io/hp/talk/2015a/</link>
       <pubDate>Fri, 25 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/talk/2015a/</guid>
+      <guid>https://phalucy.github.io/hp/talk/2015a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A simulation model of seawater vertical temperature by using back-propagation neural network</title>
-      <link>http://localhost:1313/hp/publication/zhao-2015/</link>
+      <link>https://phalucy.github.io/hp/publication/zhao-2015/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/publication/zhao-2015/</guid>
+      <guid>https://phalucy.github.io/hp/publication/zhao-2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Intensification of the subpolar front in the Japan Sea during the winter cyclones</title>
-      <link>http://localhost:1313/hp/talk/2015b/</link>
+      <link>https://phalucy.github.io/hp/talk/2015b/</link>
       <pubDate>Thu, 09 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/talk/2015b/</guid>
+      <guid>https://phalucy.github.io/hp/talk/2015b/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A segment-based seawater temperature model by using the relative gradient method</title>
-      <link>http://localhost:1313/hp/publication/zhao-2014-b/</link>
+      <link>https://phalucy.github.io/hp/publication/zhao-2014-b/</link>
       <pubDate>Mon, 01 Sep 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/publication/zhao-2014-b/</guid>
+      <guid>https://phalucy.github.io/hp/publication/zhao-2014-b/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Years of the Maritime Continent</title>
-      <link>http://localhost:1313/hp/project/external-project/</link>
+      <link>https://phalucy.github.io/hp/project/external-project/</link>
       <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/project/external-project/</guid>
+      <guid>https://phalucy.github.io/hp/project/external-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Frontogenesis and frontolysis of the subpolar front in the surface mixed layer of the Japan Sea</title>
-      <link>http://localhost:1313/hp/publication/zhao-2014-a/</link>
+      <link>https://phalucy.github.io/hp/publication/zhao-2014-a/</link>
       <pubDate>Tue, 11 Feb 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/publication/zhao-2014-a/</guid>
+      <guid>https://phalucy.github.io/hp/publication/zhao-2014-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Seawater temperature model from Argo data by LM-BP neural network in Northwest Pacific Ocean</title>
-      <link>http://localhost:1313/hp/publication/zhao-2012/</link>
+      <link>https://phalucy.github.io/hp/publication/zhao-2012/</link>
       <pubDate>Wed, 01 Aug 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/publication/zhao-2012/</guid>
+      <guid>https://phalucy.github.io/hp/publication/zhao-2012/</guid>
       <description></description>
     </item>
     
