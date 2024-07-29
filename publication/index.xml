@@ -5,20 +5,12 @@
     <link>https://phalucy.github.io/hp/publication/</link>
       <atom:link href="https://phalucy.github.io/hp/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 12 Apr 2024 10:30:17 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://phalucy.github.io/hp/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://phalucy.github.io/hp/publication/</link>
     </image>
-    
-    <item>
-      <title>Large spread in marine heatwave assessments for Asia and the Indo-Pacific between sea-surface-temperature products</title>
-      <link>https://phalucy.github.io/hp/publication/zhangetal2024/</link>
-      <pubDate>Fri, 12 Apr 2024 10:30:17 +0900</pubDate>
-      <guid>https://phalucy.github.io/hp/publication/zhangetal2024/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Impact of Climate Change on the Dynamic Processes of Marine Environment and Feedback Mechanisms: An Overview</title>
@@ -30,11 +22,19 @@
     </item>
     
     <item>
+      <title>Intensive Radiosonde Observations of Environmental Conditions on the Development of a Mesoscale Convective System in the Baiu Frontal Zone</title>
+      <link>https://phalucy.github.io/hp/publication/mandaetal-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://phalucy.github.io/hp/publication/mandaetal-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Large spread in marine heatwave assessments for Asia and the Indo-Pacific between sea-surface-temperature products</title>
       <link>https://phalucy.github.io/hp/publication/zhangetal-2024/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://phalucy.github.io/hp/publication/zhangetal-2024/</guid>
-      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+      <description>&lt;h1 id=&#34;add-the-full-text-or-supplementary-notes-for-the-publication-here-using-markdown-formatting&#34;&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/h1&gt;
 </description>
     </item>
     
