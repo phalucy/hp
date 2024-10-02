@@ -5,12 +5,20 @@
     <link>https://phalucy.github.io/hp/publication-type/article-journal/</link>
       <atom:link href="https://phalucy.github.io/hp/publication-type/article-journal/index.xml" rel="self" type="application/rss+xml" />
     <description>Article-Journal</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://phalucy.github.io/hp/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Article-Journal</title>
       <link>https://phalucy.github.io/hp/publication-type/article-journal/</link>
     </image>
+    
+    <item>
+      <title>Intensive Radiosonde Observations of Environmental Conditions on the Development of a Mesoscale Convective System in the Baiu Frontal Zone</title>
+      <link>https://phalucy.github.io/hp/publication/mandaetal-2024/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://phalucy.github.io/hp/publication/mandaetal-2024/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Impact of Climate Change on the Dynamic Processes of Marine Environment and Feedback Mechanisms: An Overview</title>
@@ -19,14 +27,6 @@
       <guid>https://phalucy.github.io/hp/publication/wangetal-2024-b/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Intensive Radiosonde Observations of Environmental Conditions on the Development of a Mesoscale Convective System in the Baiu Frontal Zone</title>
-      <link>https://phalucy.github.io/hp/publication/mandaetal-2024/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://phalucy.github.io/hp/publication/mandaetal-2024/</guid>
-      <description></description>
     </item>
     
     <item>
