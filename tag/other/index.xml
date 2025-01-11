@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Other | Zhao Ning&#39;s HP</title>
-    <link>http://localhost:1313/hp/tag/other/</link>
-      <atom:link href="http://localhost:1313/hp/tag/other/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://phalucy.github.io/hp/tag/other/</link>
+      <atom:link href="https://phalucy.github.io/hp/tag/other/index.xml" rel="self" type="application/rss+xml" />
     <description>Other</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 14 Jul 2014 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/hp/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://phalucy.github.io/hp/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Other</title>
-      <link>http://localhost:1313/hp/tag/other/</link>
+      <link>https://phalucy.github.io/hp/tag/other/</link>
     </image>
     
     <item>
       <title>Years of the Maritime Continent</title>
-      <link>http://localhost:1313/hp/project/external-project/</link>
+      <link>https://phalucy.github.io/hp/project/external-project/</link>
       <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hp/project/external-project/</guid>
+      <guid>https://phalucy.github.io/hp/project/external-project/</guid>
       <description></description>
     </item>
     
