@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Zhao Ning&#39;s HP</title>
-    <link>https://phalucy.github.io/hp/post/</link>
-      <atom:link href="https://phalucy.github.io/hp/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/hp/post/</link>
+      <atom:link href="http://localhost:1313/hp/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 10 Jan 2025 10:33:38 +0900</lastBuildDate>
     <image>
-      <url>https://phalucy.github.io/hp/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/hp/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
-      <link>https://phalucy.github.io/hp/post/</link>
+      <link>http://localhost:1313/hp/post/</link>
     </image>
     
     <item>
       <title>[2025/01/10] Our new study on marine heatwaves in the pan-Arctic has been published in Communications Earth &amp; Environment.</title>
-      <link>https://phalucy.github.io/hp/post/2025-01-10/</link>
+      <link>http://localhost:1313/hp/post/2025-01-10/</link>
       <pubDate>Fri, 10 Jan 2025 10:33:38 +0900</pubDate>
-      <guid>https://phalucy.github.io/hp/post/2025-01-10/</guid>
+      <guid>http://localhost:1313/hp/post/2025-01-10/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[2024/12/05] We are launching a special issue in Climate Dynamics.</title>
-      <link>https://phalucy.github.io/hp/post/2024-12-05/</link>
+      <link>http://localhost:1313/hp/post/2024-12-05/</link>
       <pubDate>Thu, 05 Dec 2024 14:40:38 +0900</pubDate>
-      <guid>https://phalucy.github.io/hp/post/2024-12-05/</guid>
+      <guid>http://localhost:1313/hp/post/2024-12-05/</guid>
       <description>&lt;p&gt;Special Issue in Climate Dynamics: Atmosphere, Ocean, and Land Processes in the Maritime Continent and Indo-Pacific&lt;/p&gt;
 &lt;p&gt;1 Scope of this Special Issue
 The Maritime Continent and Indo-Pacific region, bounded by Eurasia and two large oceans, play a pivotal role in shaping the global climate. Intense convective activities and systems are generated and maintained on multiple spatial and temporal scales, exerting far-reaching influences through their modulation of monsoons, Walker/Hadley circulations, and wave-induced teleconnections. In the meantime, ocean processes, such as the Indonesian throughflow (ITF), in this region also play an essential role in inter-ocean heat/salt exchange associated with the global conveyor belt and hence the global climate. However, given it acts as an important source and the bridge in the regional/global climate, our understanding of this region remains shallow due to its complex nature formed by the intricate land-sea distributions and highly coupled land-ocean-atmosphere processes, such as cloud-aerosol and cloud-radiative interactions, land-sea breezes, coupled boundary layer evolution, air-sea fluxes, and atmospheric/oceanic Kelvin and Rossby waves.&lt;/p&gt;
@@ -36,9 +36,9 @@ This special issue (SI) is inspired by a session we have proposed in the AGU fal
     
     <item>
       <title>[2024/07/28] I joined the MSJ 43rd Editorial Board of Scientific Online Letters on the Atmosphere (SOLA).</title>
-      <link>https://phalucy.github.io/hp/post/2024-07-28/</link>
+      <link>http://localhost:1313/hp/post/2024-07-28/</link>
       <pubDate>Sun, 28 Jul 2024 14:40:38 +0900</pubDate>
-      <guid>https://phalucy.github.io/hp/post/2024-07-28/</guid>
+      <guid>http://localhost:1313/hp/post/2024-07-28/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m honored to join the MSJ 43rd Editorial Board of SOLA, the Scientific Online Letters on the Atmosphere.
 &lt;a href=&#34;http://metsoc.jp/sola/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://metsoc.jp/sola/index.html&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -46,127 +46,127 @@ This special issue (SI) is inspired by a session we have proposed in the AGU fal
     
     <item>
       <title>[2024/07/01] Our recent study has been published in Earth and Space Science.</title>
-      <link>https://phalucy.github.io/hp/post/2024-07-01/</link>
+      <link>http://localhost:1313/hp/post/2024-07-01/</link>
       <pubDate>Mon, 01 Jul 2024 14:40:38 +0900</pubDate>
-      <guid>https://phalucy.github.io/hp/post/2024-07-01/</guid>
+      <guid>http://localhost:1313/hp/post/2024-07-01/</guid>
       <description>&lt;p&gt;Prof. Manda (Mie University) published a new study on the development of a mesoscale convective system and its environment conditions based on the intensive radiosonde observations during the field campaign in June 2022.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>[2024/04/12] My new study on marine heatwaves has been published in Communications Earth &amp; Environment.</title>
-      <link>https://phalucy.github.io/hp/post/2024-04-12/</link>
+      <link>http://localhost:1313/hp/post/2024-04-12/</link>
       <pubDate>Fri, 12 Apr 2024 10:33:38 +0900</pubDate>
-      <guid>https://phalucy.github.io/hp/post/2024-04-12/</guid>
+      <guid>http://localhost:1313/hp/post/2024-04-12/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[2024/03/12] Pages for Talks (Presentations) have been removed. See my CV for a full list of my presentations.</title>
-      <link>https://phalucy.github.io/hp/post/2024-03-12/</link>
+      <link>http://localhost:1313/hp/post/2024-03-12/</link>
       <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://phalucy.github.io/hp/post/2024-03-12/</guid>
+      <guid>http://localhost:1313/hp/post/2024-03-12/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[2024/03/05] Our study (Wang et al. 2024) has been published in Environmental Research.</title>
-      <link>https://phalucy.github.io/hp/post/2024-03-06/</link>
+      <link>http://localhost:1313/hp/post/2024-03-06/</link>
       <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://phalucy.github.io/hp/post/2024-03-06/</guid>
+      <guid>http://localhost:1313/hp/post/2024-03-06/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[2024/02/26] Ocean Sciences Meeting 2024</title>
-      <link>https://phalucy.github.io/hp/post/2024-02-26/</link>
+      <link>http://localhost:1313/hp/post/2024-02-26/</link>
       <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://phalucy.github.io/hp/post/2024-02-26/</guid>
+      <guid>http://localhost:1313/hp/post/2024-02-26/</guid>
       <description>&lt;p&gt;We successfully held a session for the Subtropical air-Sea interaction. Thank all speakers, attendee, and our convener team!&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>[2023/12/16] AGU Fall Meeting 2023</title>
-      <link>https://phalucy.github.io/hp/post/2023-12-16/</link>
+      <link>http://localhost:1313/hp/post/2023-12-16/</link>
       <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://phalucy.github.io/hp/post/2023-12-16/</guid>
+      <guid>http://localhost:1313/hp/post/2023-12-16/</guid>
       <description>&lt;p&gt;The fourth Maritime Continent and Indo-Pacific session in AGU. Thank all speakers, attendee, and our convener team!&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>[2023/11/22] Our recent study (Guo et al. 2023) has been published in Journal of Climate.</title>
-      <link>https://phalucy.github.io/hp/post/2023-11-22/</link>
+      <link>http://localhost:1313/hp/post/2023-11-22/</link>
       <pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://phalucy.github.io/hp/post/2023-11-22/</guid>
+      <guid>http://localhost:1313/hp/post/2023-11-22/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[2023/11/01] Our recent study (Seiki et al. 2023) has been published in SOLA.</title>
-      <link>https://phalucy.github.io/hp/post/2023-11-01/</link>
+      <link>http://localhost:1313/hp/post/2023-11-01/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://phalucy.github.io/hp/post/2023-11-01/</guid>
+      <guid>http://localhost:1313/hp/post/2023-11-01/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[2023/10/16] Presentation at the Seminar for Extreme Weathers @Nanjing University</title>
-      <link>https://phalucy.github.io/hp/post/2023-10-16/</link>
+      <link>http://localhost:1313/hp/post/2023-10-16/</link>
       <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://phalucy.github.io/hp/post/2023-10-16/</guid>
+      <guid>http://localhost:1313/hp/post/2023-10-16/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m pleased to give a presentation at Nanjing University and shared my works in tracing moisture sources of heavy rainfalls. During the seminar, Prof. Lei Zhao (University of Illinois Urbana-Champaign) also presented his wonderful works and shared his ideas in atmospheric boundary layer and urban microweather systems.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>[2023/09/17] Our study (Wang et al. 2023) has been published in Frontiers in Ecology and Evolution.</title>
-      <link>https://phalucy.github.io/hp/post/2023-09-17/</link>
+      <link>http://localhost:1313/hp/post/2023-09-17/</link>
       <pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://phalucy.github.io/hp/post/2023-09-17/</guid>
+      <guid>http://localhost:1313/hp/post/2023-09-17/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[2023/09/11] Updated to the new Hugo version 5.</title>
-      <link>https://phalucy.github.io/hp/post/update/</link>
+      <link>http://localhost:1313/hp/post/update/</link>
       <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://phalucy.github.io/hp/post/update/</guid>
+      <guid>http://localhost:1313/hp/post/update/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[2023/09/07] My recent study has been published in Geophysical Research Letters</title>
-      <link>https://phalucy.github.io/hp/post/2023-09-07/</link>
+      <link>http://localhost:1313/hp/post/2023-09-07/</link>
       <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://phalucy.github.io/hp/post/2023-09-07/</guid>
+      <guid>http://localhost:1313/hp/post/2023-09-07/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[2023/08/07] APL-ICAR Workshop (Aug 7-8) @JAMSTEC</title>
-      <link>https://phalucy.github.io/hp/post/2023-08-07/</link>
+      <link>http://localhost:1313/hp/post/2023-08-07/</link>
       <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://phalucy.github.io/hp/post/2023-08-07/</guid>
+      <guid>http://localhost:1313/hp/post/2023-08-07/</guid>
       <description>&lt;p&gt;I attended the APL-ICAR (NUIST) Workshop, which held at Miyoshi Hall, JAMSTEC Yokohama Campus, Japan.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>[2023/08/03] AOGS2023 in Singapore</title>
-      <link>https://phalucy.github.io/hp/post/2023-08-03/</link>
+      <link>http://localhost:1313/hp/post/2023-08-03/</link>
       <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://phalucy.github.io/hp/post/2023-08-03/</guid>
+      <guid>http://localhost:1313/hp/post/2023-08-03/</guid>
       <description>&lt;p&gt;I attended the 20th Annual Meeting of the Asia Oceania Geosciences Society held in Singapore&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>[2023/03/21] Our study has been published in Remote Sensing</title>
-      <link>https://phalucy.github.io/hp/post/2023-03-21/</link>
+      <link>http://localhost:1313/hp/post/2023-03-21/</link>
       <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://phalucy.github.io/hp/post/2023-03-21/</guid>
+      <guid>http://localhost:1313/hp/post/2023-03-21/</guid>
       <description></description>
     </item>
     
