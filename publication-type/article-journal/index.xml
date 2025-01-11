@@ -5,12 +5,21 @@
     <link>https://phalucy.github.io/hp/publication-type/article-journal/</link>
       <atom:link href="https://phalucy.github.io/hp/publication-type/article-journal/index.xml" rel="self" type="application/rss+xml" />
     <description>Article-Journal</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 10 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://phalucy.github.io/hp/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Article-Journal</title>
       <link>https://phalucy.github.io/hp/publication-type/article-journal/</link>
     </image>
+    
+    <item>
+      <title>Satellites reveal different stories of marine heatwaves in the sea-ice-covered pan-Arctic</title>
+      <link>https://phalucy.github.io/hp/publication/zhangetal-2025/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://phalucy.github.io/hp/publication/zhangetal-2025/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Intensive Radiosonde Observations of Environmental Conditions on the Development of a Mesoscale Convective System in the Baiu Frontal Zone</title>
