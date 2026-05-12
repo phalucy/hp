@@ -1,0 +1,627 @@
+/* ==========================================
+   1. 全局变量与基础设置
+   ========================================== */
+:root {
+    --primary-color: #0077b6; /* 深天蓝 */
+    --accent-color: #48cae4;  /* 亮天蓝 */
+    --bg-light: #f0f9ff;      /* 极浅蓝背景 */
+    --text-dark: #2c3e50;
+    --white: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+    /* 核心修改点：使用百分比宽度 */
+    width: 90%; 
+    max-width: 1400px; /* 设置一个最大的上限，防止超大屏上文字太长难阅读 */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+html {
+    scroll-behavior: smooth; /* 点击“关于”、“动态”时平滑滚动，而不是瞬间闪现 */
+    scroll-padding-top: 80px; /* 防止内容被固定导航栏遮住 */
+}
+/* ==========================================
+   2. 导航与页眉 (Header & Nav)
+   ========================================== */
+header {
+    background: linear-gradient(to bottom, #e0f2fe 0%, #ffffff 100%);
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid var(--accent-color);
+    border-radius: 12px 12px 0 0;
+}
+
+.header-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    object-fit: cover;
+    border: 4px solid var(--white);
+    box-shadow: 0 8px 20px rgba(0,119,182,0.15);
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(5px);
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid var(--accent-color);
+    z-index: 1000;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: var(--accent-color);
+}
+
+/* 学术图标链接容器 */
+/* 1. 确保图标容器在移动端和电脑端都遵循左对齐逻辑 */
+.social-links {
+    margin-top: 15px;      /* 与上方单位名称的间距 */
+    display: flex;
+    gap: 20px;             /* 图标之间的横向间距 */
+    justify-content: flex-start; /* 核心：强制左对齐 */
+    padding-left: 0;       /* 确保没有内边距干扰 */
+}
+
+/* 2. 图标的基础样式 */
+.social-links a {
+    color: var(--primary-color); /* 或者使用 #666 保持低调 */
+    font-size: 1.4rem;
+    transition: transform 0.2s ease, color 0.2s ease;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    transform: translateY(-2px);
+    color: var(--accent-color); /* 悬停时变色 */
+}
+
+/* 3. 如果你的 profile-container 在大屏幕下是横向排列的，
+   确保 info 区域内部也是左对齐 */
+@media (min-width: 768px) {
+    .profile-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* 确保所有文字和图标都在垂直线上对齐 */
+        text-align: left;
+    }
+}
+/* ==========================================
+   3. 通用板块样式
+   ========================================== */
+section {
+    background: var(--white);
+    padding: 40px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+h2 {
+    color: var(--primary-color);
+    border-left: 5px solid var(--accent-color);
+    padding-left: 15px;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+/* ==========================================
+   4. 个人简介与 CV 特效
+   ========================================== */
+.profile-section {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.bio-text { flex: 2; min-width: 300px; }
+
+/* 精简版 CV 按钮 */
+.cv-mini-btn {
+    display: inline-flex;
+    align-items: center;
+    background: white;
+    color: var(--primary-color) !important;
+    padding: 6px 14px;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.85em;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+
+.cv-mini-btn:hover {
+    background: var(--primary-color);
+    color: white !important;
+    box-shadow: 0 2px 5px rgba(0,119,182,0.15);
+}
+
+/* 辅助样式：让简介部分排版更精致 */
+.sub-title {
+    color: var(--primary-color); 
+    font-size: 1.1em; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.edu-list {
+    list-style: none; 
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.edu-list li {
+    margin-bottom: 8px;
+}
+
+
+.cv-download-btn:hover {
+    transform: translateY(-3px);
+    background: #023e8a;
+    box-shadow: 0 6px 20px rgba(0,119,182,0.3);
+}
+
+.skill-tag {
+    display: inline-block;
+    border: 1px solid var(--accent-color);
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 0.85em;
+    transition: 0.3s;
+}
+
+.skill-tag:hover {
+    background: var(--accent-color);
+    color: var(--white);
+}
+
+/* ==========================================
+   5. 动态 (News) 样式
+   ========================================== */
+.news-item {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.news-date {
+    background: #e0f2fe;
+    color: var(--primary-color);
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 0.9em;
+}
+
+/* ==========================================
+   6. 论文 (Publications) 样式 - 现代滑动走廊版
+   ========================================== */
+
+/* 1. 标题区域：左标题，右滑动提示 */
+.section-header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 25px;
+}
+
+.slider-hint {
+    font-size: 0.85em;
+    color: var(--accent-color);
+    letter-spacing: 1px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+/* 2. 外部容器：定位基准 */
+.pub-slider-container {
+    position: relative; 
+    margin: 0 -40px; /* 扩展负边距 */
+    padding: 10px 40px;
+    overflow: visible; 
+}
+
+/* 3. 滚动轨道：【核心修正点】 */
+.pub-slider {
+    display: flex;            /* 必须：开启横向排列 */
+    flex-direction: row;      /* 确保水平 */
+    flex-wrap: nowrap;        /* 必须：禁止换行，否则会掉下去变成上下排 */
+    gap: 30px;                /* 卡片间距 */
+    overflow-x: auto;         /* 开启横向滚动 */
+    padding-bottom: 20px;
+    scroll-snap-type: x mandatory; 
+    -webkit-overflow-scrolling: touch;
+
+    /* 隐藏原生滚动条 */
+    scrollbar-width: none;    /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+}
+.pub-slider::-webkit-scrollbar {
+    display: none;            /* Chrome/Safari */
+}
+
+/* 4. 悬浮导航按钮样式 */
+.slider-nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.9);
+    color: var(--primary-color);
+    border: 1px solid var(--accent-color);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.pub-slider-container:hover .slider-nav-btn {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.slider-nav-btn.prev { left: 10px; }
+.slider-nav-btn.next { right: 10px; }
+
+.slider-nav-btn:hover {
+    background: var(--primary-color);
+    color: white;
+    transform: translateY(-50%) scale(1.1);
+}
+
+/* 5. 论文卡片：锁定尺寸 */
+.pub-card-visual {
+    flex: 0 0 420px;         /* 必须：不压缩不放大，固定宽度 */
+    width: 420px;            /* 增强兼容性 */
+    scroll-snap-align: start;
+    background: var(--white);
+    border: 1px solid rgba(0,0,0,0.05);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    overflow: hidden;
+    cursor: grab;
+}
+
+.pub-card-visual:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 119, 182, 0.12);
+}
+
+/* 6. 图片区域 */
+.pub-image-box {
+    width: 100%;
+    height: 235px;
+    overflow: hidden;
+    background: #f8f9fa;
+}
+
+.pub-image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 7. 文字内容区域 */
+.pub-content-box {
+    padding: 24px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.pub-title-visual {
+    color: var(--primary-color);
+    font-size: 1.15em;
+    font-weight: 700;
+    margin: 0 0 12px 0;
+    line-height: 1.4;
+    min-height: 2.8em;
+}
+
+.pub-abstract-short {
+    font-size: 0.92em;
+    color: #555;
+    line-height: 1.6;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* 8. 响应式微调 */
+@media (max-width: 768px) {
+    .pub-card-visual { flex: 0 0 85%; width: 85%; }
+    .pub-slider-container { margin: 0 -20px; padding: 10px 20px; }
+}
+/* ==========================================
+   7. 完整论文列表特殊样式 (Full Pub List)
+   ========================================== */
+
+/* 年份导航吸顶 */
+.year-index {
+    position: sticky;
+    top: 60px; /* 需根据你的 nav 高度微调 */
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(5px);
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap; /* 手机端自动换行 */
+    gap: 10px;
+    z-index: 100;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+.year-index a {
+    color: var(--primary-color);
+    border: 1px solid var(--accent-color);
+    padding: 4px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.year-index a:hover {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--white);
+}
+
+/* 年份标题 */
+.year-header { 
+    color: var(--primary-color); 
+    border-bottom: 2px solid var(--accent-color);
+    margin: 50px 0 20px 0;
+    padding-bottom: 8px;
+    font-size: 1.8em;
+}
+
+/* 单条论文条目布局 */
+.full-pub-item {
+    margin-bottom: 25px;
+    padding: 15px;
+    border-radius: 8px;
+    transition: background 0.2s ease;
+}
+
+.full-pub-item:hover {
+    background: #f8fdff; /* 鼠标悬停时极浅的蓝色背景，增加阅读指引 */
+}
+
+.full-pub-item p {
+    margin: 0;
+    line-height: 1.7;
+    color: #333;
+}
+
+/* 重点：内容解读链接样式 */
+.insight-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 15px;
+    background: #fff;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.85em;
+    border-radius: 4px;
+    border: 1px solid var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+.insight-link:hover {
+    background: var(--primary-color);
+    color: var(--white) !important;
+    transform: translateX(5px); /* 悬停时轻微右移 */
+}
+
+/* 其他辅助链接 (DOI, PDF 等) */
+.full-pub-links {
+    margin-top: 8px;
+}
+
+.full-pub-links .secondary-link {
+    margin-left: 0;
+    margin-right: 15px;
+    color: #666;
+    font-size: 0.85em;
+    text-decoration: none;
+}
+
+.full-pub-links .secondary-link:hover {
+    color: var(--accent-color);
+}
+
+/* 返回顶部按钮 */
+.top-btn {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background: var(--primary-color);
+    color: var(--white) !important;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    z-index: 999;
+}
+
+.top-btn:hover {
+    background: #023e8a;
+    transform: translateY(-5px);
+}
+
+/* 适配移动端 */
+@media (max-width: 768px) {
+    .year-header { font-size: 1.4em; }
+    .top-btn { bottom: 20px; right: 20px; width: 40px; height: 40px; }
+}
+/* ==========================================
+   8. 响应式布局 (Mobile Friendly)
+   ========================================== */
+@media (max-width: 768px) {
+    body { padding: 10px 20px; }
+    
+    header {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 30px 20px;
+    }
+    
+    .header-photo { margin-bottom: 20px; width: 150px; height: 150px; }
+    
+    .profile-section { flex-direction: column; }
+    
+    .year-index { overflow-x: auto; white-space: nowrap; }
+}
+
+
+/* ==========================================
+   9. 详情页 (Mobile Friendly)
+   ========================================= */
+.main-fig { 
+    width: 100%; 
+    border-radius: 12px; 
+    margin: 25px 0; 
+    box-shadow: 0 8px 20px rgba(0,119,182,0.1); 
+}
+.bibtex-container { 
+    background: #f8fdff; 
+    padding: 20px; 
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 0.9em; 
+    border-radius: 8px; 
+    border: 1px solid var(--accent-color);
+    overflow-x: auto;
+    line-height: 1.4;
+}
+.article-tag {
+    background: var(--accent-color);
+    color: white;
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-size: 0.7em;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+/* ==========================================
+   10. 动态详情页的正文样式
+   ========================================= */
+
+.news-article h1 {
+    color: var(--primary-color);
+    margin-bottom: 5px;
+}
+
+.news-article hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+.news-article p {
+    font-size: 1.05em;
+    color: #444;
+}
+
+/* ==========================================
+   11. 项目
+   ========================================= */
+
+/* 项目卡片样式 */
+.project-card {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #e0f2fe;
+    border-radius: 8px;
+    background: #fff;
+    transition: transform 0.2s;
+}
+
+.project-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,119,182,0.1);
+}
+
+.project-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.project-header h3 {
+    margin: 0;
+    color: var(--primary-color);
+    font-size: 1.1em;
+}
+
+.project-status {
+    background: #e0f2fe;
+    color: var(--primary-color);
+    font-size: 0.75em;
+    padding: 2px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.status-completed {
+    background: #f1f3f5;
+    color: #6c757d;
+}
+
+.project-meta {
+    font-size: 0.9em;
+    color: #666;
+    margin: 5px 0;
+}
+
+.project-desc {
+    font-size: 0.95em;
+    color: var(--text-dark);
+    margin-top: 10px;
+}

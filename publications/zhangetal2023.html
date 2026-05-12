@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   A Modified U-Net Model for Predicting the Sea Surface Salinity over the Western Pacific Ocean | Research Detail
+  </title>
+  <link href="../css/style.css" rel="stylesheet"/>
+  <style>
+   .detail-container { max-width: 850px; margin: 40px auto; padding: 0 20px; }
+        .citation-box { background: #fdfdfd; padding: 24px; border: 1px solid #eee; border-left: 5px solid var(--primary-color); margin: 25px 0; border-radius: 0 8px 8px 0; }
+        .main-fig { width: 100%; border-radius: 12px; margin: 25px 0; box-shadow: 0 12px 40px rgba(0,119,182,0.1); display: block; }
+        .action-buttons { margin: 30px 0; display: flex; gap: 15px; }
+        .btn-pdf { background: #e63946; color: white; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: bold; }
+        .btn-pdf:hover { background: #c1121f; }
+  </style>
+ </head>
+ <body>
+  <nav style="padding: 20px 40px;">
+   <a href="../index.html" style="text-decoration: none; color: var(--primary-color);">
+    ← Back to Home
+   </a>
+  </nav>
+  <article class="detail-container">
+   <h1 style="color: var(--primary-color); line-height: 1.2;">
+    A Modified U-Net Model for Predicting the Sea Surface Salinity over the Western Pacific Ocean
+   </h1>
+   <div class="citation-box">
+    <p style="margin:0; font-family: 'Georgia', serif; font-size: 1.1em; color: #333;">
+     Zhang, Xuewei &amp;
+     <strong>
+      Zhao, Ning
+     </strong>
+     
+     &amp; Han, Zhen (2023). A Modified U-Net Model for Predicting the Sea Surface Salinity over the Western Pacific Ocean.
+     <i>
+      Remote Sensing
+     </i>
+     . https://doi.org/10.3390/rs15061684
+    </p>
+   </div>
+   <div class="action-buttons">
+    <a class="btn-pdf" href="../pdfs/zhangetal2023.pdf" target="_blank">
+     📄 Download Full PDF
+    </a>
+    <a href="https://doi.org/10.3390/rs15061684" style="align-self: center; color: var(--accent-color);" target="_blank">
+     View Publisher DOI
+    </a>
+   </div>
+   <hr style="border:0; border-top:1px solid #eee; margin: 35px 0;"/>
+   <h3>
+    Abstract
+   </h3>
+   <p style="line-height: 1.8; text-align: justify; color: #444;">
+    The prediction of oceanic features is always an important issue in oceanography, where deep learning has been proven to be a useful tool. In this study, we applied the improved U-net model to predict the monthly sea surface salinity (SSS) over the western Pacific (WP) Ocean, and the model was designed to use the SSSs from six consecutive months to predict the SSS in the next month. The monthly satellite-based SSSs in 2015–2020 were used for model training, and the data collected after January 2021 were used to evaluate the model’s predictive abilities. The results showed that the predicted SSSs represented the general patterns of SSSs over the WP region. However, the small-scale features were smoothed out in the model, and the temporal variations were also not well captured, especially over the East China Sea and Yellow Sea (ECS&amp;YS) region. To further evaluate the potential of the U-net model, a more specific model was conducted for the ECS&amp;YS region (Domain 2), which successfully predicted both spatial and temporal variations in the SSSs, including the spreading and retreating of the low-salinity tongue. Based on the comparison between the two domains and sensitivity experiments, we found that the prediction biases were contributed by the spatial distributions of the SSSs, the domain size, and the filter numbers. In addition, further multi-step prediction experiments suggested that our U-net model could also be used for long-time prediction, and we have examined up to five months. Overall, this study demonstrated the great ability and potential of the U-net model for predicting SSS, even though only a few trainable data are available.
+   </p>
+   <h3>
+    Key Figure
+   </h3>
+   <img alt="Publication Figure" class="main-fig" onerror="this.onerror=null;this.src='../images/default_pub.jpg';" src="../images/fig_zhangetal2023.jpg"/>
+  </article>
+ </body>
+</html>
