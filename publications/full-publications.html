@@ -4,24 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Full Publication List | Ning Zhao</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
-    <style>
-        body { max-width: 900px; margin: 0 auto; padding: 20px; line-height: 1.6; color: #333; }
-        nav { padding: 20px 0; }
-        .year-index { background: #f9f9f9; padding: 15px; border-radius: 8px; margin: 20px 0; position: sticky; top: 0; z-index: 100; border: 1px solid #eee; }
-        .year-index a { margin-right: 15px; text-decoration: none; color: var(--primary-color); font-weight: bold; }
-        .top-btn { position: fixed; bottom: 30px; right: 30px; background: var(--primary-color); color: white; padding: 10px; border-radius: 5px; text-decoration: none; font-size: 0.8em; }
-    </style>
+    <script>
+        // Sync theme from main page
+        (function() {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.classList.add('dark-mode');
+            }
+        })();
+    </script>
 </head>
 <body>
-    <nav><a href="../index.html" style="text-decoration: none; color: var(--primary-color);">← Back to Home Page</a></nav>
+    <nav style="padding: 20px 0; border: none; background: transparent; box-shadow: none;"><a href="../index.html" class="back-link">← Back to Home Page</a></nav>
     
-    <header style="padding: 40px 0 20px 0;">
-        <h1 style="font-size: 2.5em; color: var(--primary-color);">Full Publication List</h1>
+    <header style="padding: 40px 0 20px 0; background: transparent; border: none; box-shadow: none; display: block; margin-bottom: 20px;">
+        <h1 style="font-size: 2.5em; color: var(--primary-color); font-family: 'Outfit', sans-serif;">Full Publication List</h1>
     </header>
 
     <div class="year-index">
-        <span style="font-weight: bold; margin-right: 10px;">Jump to Year:</span>
+        <span>Jump to Year:</span>
         <a href="#y2026">2026</a>
         <a href="#y2025">2025</a>
         <a href="#y2024">2024</a>
@@ -37,11 +42,11 @@
     </div>
 
     
-    <section id="y2026" class="year-section" style="padding-top: 40px;">
-        <h2 style="border-bottom: 2px solid var(--primary-color); padding-bottom: 10px; color: var(--primary-color);">2026</h2>
+    <section id="y2026" class="year-section" style="padding-top: 40px; background: transparent; border: none; box-shadow: none; margin-bottom: 10px;">
+        <h2 class="year-header">2026</h2>
         
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
      Kinoshida, Takenari & Ogino, Shin-Ya & Suzuki, Junko & Shirooka, Ryuichi & Moteki, Qoosaku &
      <strong>
       Zhao, Ning
@@ -53,13 +58,13 @@
      </i>
      . https://doi.org/10.1007/s44393-026-00011-5
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="kinoshidaetal2026.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/10.1007/s44393-026-00011-5" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="kinoshidaetal2026.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/10.1007/s44393-026-00011-5" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
      Mengzhou Yang &
      <strong>
       Ning Zhao*
@@ -71,17 +76,17 @@
      </i>
      . https://doi.org/s40562-026-00475-0
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="yangetal2026.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/s40562-026-00475-0" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="yangetal2026.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/s40562-026-00475-0" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
     </section>
-    <section id="y2025" class="year-section" style="padding-top: 40px;">
-        <h2 style="border-bottom: 2px solid var(--primary-color); padding-bottom: 10px; color: var(--primary-color);">2025</h2>
+    <section id="y2025" class="year-section" style="padding-top: 40px; background: transparent; border: none; box-shadow: none; margin-bottom: 10px;">
+        <h2 class="year-header">2025</h2>
         
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
      Xuewei Zhang &
      <strong>
       Ning Zhao*
@@ -93,13 +98,13 @@
      </i>
      . https://doi.org/10.1038/s43247-025-01997-9
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="zhangetal2025.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/10.1038/s43247-025-01997-9" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="zhangetal2025.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/10.1038/s43247-025-01997-9" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
      Yuxiang Qiao & Hirohiko Nakamura & Tomohiko Tomita & Zhaojun Liu &
      <strong>
       Ning Zhao
@@ -111,13 +116,13 @@
      </i>
      . https://doi.org/10.1175/JCLI-D-24-0637.1
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="qiaoetal2025.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/10.1175/JCLI-D-24-0637.1" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="qiaoetal2025.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/10.1175/JCLI-D-24-0637.1" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
 <strong>
       Zhao, Ning*
      </strong>
@@ -128,17 +133,17 @@
      </i>
      . https://doi.org/10.1029/2025JD044541
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="zhaoetal2025.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/10.1029/2025JD044541" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="zhaoetal2025.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/10.1029/2025JD044541" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
     </section>
-    <section id="y2024" class="year-section" style="padding-top: 40px;">
-        <h2 style="border-bottom: 2px solid var(--primary-color); padding-bottom: 10px; color: var(--primary-color);">2024</h2>
+    <section id="y2024" class="year-section" style="padding-top: 40px; background: transparent; border: none; box-shadow: none; margin-bottom: 10px;">
+        <h2 class="year-header">2024</h2>
         
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
      Bin Wang & Lijuan Hua & Amal M. Al-Mohaimeed &
      <strong>
       Ning Zhao
@@ -150,13 +155,13 @@
      </i>
      . https://doi.org/10.1016/j.envres.2024.118591
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="wangetal2024.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/10.1016/j.envres.2024.118591" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="wangetal2024.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/10.1016/j.envres.2024.118591" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
      Xuewei Zhang &
      <strong>
       Ning Zhao*
@@ -168,13 +173,13 @@
      </i>
      . https://doi.org/10.1038/s43247-024-01369-9
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="zhangetal2024.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/10.1038/s43247-024-01369-9" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="zhangetal2024.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/10.1038/s43247-024-01369-9" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
      Manda, A. & Tachibana, Y. & Nakamura, H. & Takikawa, T. & Nishina, A. & Moteki, Q. &
      <strong>
       Zhao, N.
@@ -186,13 +191,13 @@
      </i>
      . https://doi.org/10.1029/2023EA003486
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="mandaetal2024.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/10.1029/2023EA003486" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="mandaetal2024.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/10.1029/2023EA003486" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
      Bin Wang & Lijuan Hua & Huan Mei & Xiangbai Wu & Yanyan Kang &
      <strong>
       Ning Zhao
@@ -204,17 +209,17 @@
      </i>
      . https://doi.org/10.1007/s11831-024-10072-z
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="wangetal2024b.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/10.1007/s11831-024-10072-z" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="wangetal2024b.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/10.1007/s11831-024-10072-z" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
     </section>
-    <section id="y2023" class="year-section" style="padding-top: 40px;">
-        <h2 style="border-bottom: 2px solid var(--primary-color); padding-bottom: 10px; color: var(--primary-color);">2023</h2>
+    <section id="y2023" class="year-section" style="padding-top: 40px; background: transparent; border: none; box-shadow: none; margin-bottom: 10px;">
+        <h2 class="year-header">2023</h2>
         
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
      Wang, Bin & Hua, Lijuan, & Mei, Huan & Kang, Yanyan &
      <strong>
       ZHao, Ning
@@ -226,13 +231,13 @@
      </i>
      . https://doi.org/10.3389/fevo.2023.1257542
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="wangetal2023.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/10.3389/fevo.2023.1257542" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="wangetal2023.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/10.3389/fevo.2023.1257542" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
 <strong>
       Zhao, Ning*
      </strong>
@@ -243,13 +248,13 @@
      </i>
      . https://doi.org/10.1029/2023GL104166
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="zhaoetal2023.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/10.1029/2023GL104166" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="zhaoetal2023.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/10.1029/2023GL104166" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
      Ayako Seiki & Akira Nagano &
      <strong>
       Ning Zhao
@@ -261,13 +266,13 @@
      </i>
      . https://doi.org/10.2151/sola.2023-038
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="seikietal2023.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/10.2151/sola.2023-038" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="seikietal2023.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/10.2151/sola.2023-038" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
      Guo, Xiaojun &
      <strong>
       Zhao, Ning
@@ -279,13 +284,13 @@
      </i>
      . https://doi.org/10.1175/JCLI-D-23-0244.1
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="guoetal2023.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/10.1175/JCLI-D-23-0244.1" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="guoetal2023.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/10.1175/JCLI-D-23-0244.1" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
      Zhang, Xuewei &
      <strong>
       Zhao, Ning
@@ -297,17 +302,17 @@
      </i>
      . https://doi.org/10.3390/rs15061684
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="zhangetal2023.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/10.3390/rs15061684" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="zhangetal2023.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/10.3390/rs15061684" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
     </section>
-    <section id="y2022" class="year-section" style="padding-top: 40px;">
-        <h2 style="border-bottom: 2px solid var(--primary-color); padding-bottom: 10px; color: var(--primary-color);">2022</h2>
+    <section id="y2022" class="year-section" style="padding-top: 40px; background: transparent; border: none; box-shadow: none; margin-bottom: 10px;">
+        <h2 class="year-header">2022</h2>
         
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
 <strong>
       Ning Zhao*
      </strong>
@@ -318,13 +323,13 @@
      </i>
      . https://doi.org/10.1175/MWR-D-21-0251.1
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="zhaoetal2022.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/10.1175/MWR-D-21-0251.1" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="zhaoetal2022.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/10.1175/MWR-D-21-0251.1" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
 <strong>
       Zhao, Ning*
      </strong>
@@ -335,17 +340,17 @@
      </i>
      . https://doi.org/10.3389/feart.2022.1043093
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="zhaoetal2022b.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/10.3389/feart.2022.1043093" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="zhaoetal2022b.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/10.3389/feart.2022.1043093" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
     </section>
-    <section id="y2021" class="year-section" style="padding-top: 40px;">
-        <h2 style="border-bottom: 2px solid var(--primary-color); padding-bottom: 10px; color: var(--primary-color);">2021</h2>
+    <section id="y2021" class="year-section" style="padding-top: 40px; background: transparent; border: none; box-shadow: none; margin-bottom: 10px;">
+        <h2 class="year-header">2021</h2>
         
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
      Wang, Bin & Wu, Lei &
      <strong>
       Zhao, Ning
@@ -357,13 +362,13 @@
      </i>
      . https://doi.org/10.3390/jmse9091021
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="wangetal2021.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/10.3390/jmse9091021" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="wangetal2021.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/10.3390/jmse9091021" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
      Xiaojun Guo &
      <strong>
       Ning Zhao
@@ -375,34 +380,34 @@
      </i>
      . https://doi.org/10.1175/JCLI-D-21-0290.1
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="guoetal2021.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/10.1175/JCLI-D-21-0290.1" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="guoetal2021.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/10.1175/JCLI-D-21-0290.1" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
 <strong>
       Zhao, N.*
      </strong>
       
-     & Manda, A. & Guo, X. & Kikuchi, K. & Nasuno, T. & Nakano, M. & Zhang, Y. & Wang, B. (2021). A Lagrangian View of Moisture Transport Related to the Heavy Rainfall of July 2020 in Japan: Importance of the Moistening Over the Subtropical Regions.
+     & et al. (2021). A Lagrangian View of Moisture Transport Related to the Heavy Rainfall of July 2020 in Japan: Importance of the Moistening Over the Subtropical Regions.
      <i>
       Geophysical Research Letters
      </i>
      . https://doi.org/10.1029/2020GL091441
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="zhaoetal2021.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/10.1029/2020GL091441" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="zhaoetal2021.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/10.1029/2020GL091441" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
     </section>
-    <section id="y2020" class="year-section" style="padding-top: 40px;">
-        <h2 style="border-bottom: 2px solid var(--primary-color); padding-bottom: 10px; color: var(--primary-color);">2020</h2>
+    <section id="y2020" class="year-section" style="padding-top: 40px; background: transparent; border: none; box-shadow: none; margin-bottom: 10px;">
+        <h2 class="year-header">2020</h2>
         
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
 <strong>
       Zhao, Ning*
      </strong>
@@ -413,17 +418,17 @@
      </i>
      . https://doi.org/10.1029/2020MS002058
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="zhaoandnasuno2020.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/10.1029/2020MS002058" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="zhaoandnasuno2020.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/10.1029/2020MS002058" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
     </section>
-    <section id="y2018" class="year-section" style="padding-top: 40px;">
-        <h2 style="border-bottom: 2px solid var(--primary-color); padding-bottom: 10px; color: var(--primary-color);">2018</h2>
+    <section id="y2018" class="year-section" style="padding-top: 40px; background: transparent; border: none; box-shadow: none; margin-bottom: 10px;">
+        <h2 class="year-header">2018</h2>
         
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
 <strong>
       Zhao, Ning*
      </strong>
@@ -434,17 +439,17 @@
      </i>
      . https://doi.org/10.1029/2017JD027503
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="zhaoetal2018.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/10.1029/2017JD027503" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="zhaoetal2018.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/10.1029/2017JD027503" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
     </section>
-    <section id="y2016" class="year-section" style="padding-top: 40px;">
-        <h2 style="border-bottom: 2px solid var(--primary-color); padding-bottom: 10px; color: var(--primary-color);">2016</h2>
+    <section id="y2016" class="year-section" style="padding-top: 40px; background: transparent; border: none; box-shadow: none; margin-bottom: 10px;">
+        <h2 class="year-header">2016</h2>
         
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
 <strong>
       Zhao, Ning
      </strong>
@@ -455,13 +460,13 @@
      </i>
      . https://doi.org/10.11759/hykx20130419002
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="zhaoetal2016.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/10.11759/hykx20130419002" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="zhaoetal2016.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/10.11759/hykx20130419002" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
 <strong>
       Zhao, Ning*
      </strong>
@@ -472,17 +477,17 @@
      </i>
      . https://doi.org/10.1002/2015JC011565
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="zhaoetal2016b.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/10.1002/2015JC011565" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="zhaoetal2016b.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/10.1002/2015JC011565" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
     </section>
-    <section id="y2015" class="year-section" style="padding-top: 40px;">
-        <h2 style="border-bottom: 2px solid var(--primary-color); padding-bottom: 10px; color: var(--primary-color);">2015</h2>
+    <section id="y2015" class="year-section" style="padding-top: 40px; background: transparent; border: none; box-shadow: none; margin-bottom: 10px;">
+        <h2 class="year-header">2015</h2>
         
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
 <strong>
       Zhao, Ning*
      </strong>
@@ -493,17 +498,17 @@
      </i>
      . https://doi.org/10.1515/pomr-2015-0037
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="zhaoandhan2015.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/10.1515/pomr-2015-0037" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="zhaoandhan2015.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/10.1515/pomr-2015-0037" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
     </section>
-    <section id="y2014" class="year-section" style="padding-top: 40px;">
-        <h2 style="border-bottom: 2px solid var(--primary-color); padding-bottom: 10px; color: var(--primary-color);">2014</h2>
+    <section id="y2014" class="year-section" style="padding-top: 40px; background: transparent; border: none; box-shadow: none; margin-bottom: 10px;">
+        <h2 class="year-header">2014</h2>
         
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
 <strong>
       Zhao, Ning*
      </strong>
@@ -514,13 +519,13 @@
      </i>
      . https://doi.org/10.1002/2013JC009419
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="zhaoetal2014.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/10.1002/2013JC009419" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="zhaoetal2014.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/10.1002/2013JC009419" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
 <strong>
       Zhao, Ning
      </strong>
@@ -531,17 +536,17 @@
      </i>
      . https://doi.org/10.16441/j.cnki.hdxb.2014.09.003
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="zhaoetal2014b.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/10.16441/j.cnki.hdxb.2014.09.003" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="zhaoetal2014b.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/10.16441/j.cnki.hdxb.2014.09.003" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
     </section>
-    <section id="y2012" class="year-section" style="padding-top: 40px;">
-        <h2 style="border-bottom: 2px solid var(--primary-color); padding-bottom: 10px; color: var(--primary-color);">2012</h2>
+    <section id="y2012" class="year-section" style="padding-top: 40px; background: transparent; border: none; box-shadow: none; margin-bottom: 10px;">
+        <h2 class="year-header">2012</h2>
         
-        <div class="full-pub-item" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px;">
-            <p style="font-family: 'Georgia', serif; line-height: 1.6;">
+        <div class="full-pub-item">
+            <p>
      Han, Zhen &
      <strong>
       Zhao, Ning
@@ -553,16 +558,16 @@
      </i>
      . https://doi.org/10.3969/j.issn.1007-6336.2012.04.021
     </p>
-            <div class="full-pub-links" style="margin-top: 10px; font-size: 0.9em;">
-                <a href="hanandzhao2012.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold; margin-right: 20px;">[Details] &rarr;</a>
-                <a href="https://doi.org/10.3969/j.issn.1007-6336.2012.04.021" target="_blank" style="color: var(--accent-color); text-decoration: none;">[Official DOI]</a>
+            <div class="full-pub-links">
+                <a href="hanandzhao2012.html" class="secondary-link" style="margin-right: 20px;">[Details] &rarr;</a>
+                <a href="https://doi.org/10.3969/j.issn.1007-6336.2012.04.021" target="_blank" class="secondary-link">[Official DOI]</a>
             </div>
         </div>
     </section>
 
     <a href="#" class="top-btn">TOP ▲</a>
     
-    <footer style="margin-top: 80px; text-align: center; color: #999; font-size: 0.85em; padding-bottom: 50px; border-top: 1px solid #eee; padding-top: 30px;">
+    <footer style="margin-top: 80px; text-align: center; color: var(--text-muted); font-size: 0.85em; padding-bottom: 50px; border-top: 1px solid var(--border-color); padding-top: 30px;">
         &copy; 2026 Ning Zhao. Automatically synchronized from publication database.
     </footer>
 </body>

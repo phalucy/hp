@@ -6,14 +6,26 @@
   <title>
    Intensive Radiosonde Observations of Environmental Conditions on the Development of a Mesoscale Convective System in the Baiu Frontal Zone | Research Detail
   </title>
-  <link href="../css/style.css" rel="stylesheet"/>
-  <style>
-   .detail-container { max-width: 850px; margin: 40px auto; padding: 0 20px; }
-        .citation-box { background: #fdfdfd; padding: 24px; border: 1px solid #eee; border-left: 5px solid var(--primary-color); margin: 25px 0; border-radius: 0 8px 8px 0; }
-        .main-fig { width: 100%; border-radius: 12px; margin: 25px 0; box-shadow: 0 12px 40px rgba(0,119,182,0.1); display: block; }
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <script>
+        // Sync theme from main page
+        (function() {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.classList.add('dark-mode');
+            }
+        })();
+    </script>
+      <style>
+        .detail-container { max-width: 850px; margin: 40px auto; padding: 0 20px; }
+        .citation-box { background: var(--bg-light); padding: 24px; border: 1px solid var(--border-color); border-left: 5px solid var(--primary-color); margin: 25px 0; border-radius: 0 var(--radius-md) var(--radius-md) 0; }
+        .main-fig { width: 100%; border-radius: var(--radius-md); margin: 25px 0; box-shadow: var(--shadow-lg); display: block; }
         .action-buttons { margin: 30px 0; display: flex; gap: 15px; }
-        .btn-pdf { background: #e63946; color: white; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: bold; }
-  </style>
+        .btn-pdf { background: #ef4444; color: white !important; padding: 12px 24px; border-radius: var(--radius-sm); text-decoration: none; font-weight: 600; }
+    </style>
  </head>
  <body>
   <nav style="padding: 20px 40px;">
@@ -26,7 +38,7 @@
     Intensive Radiosonde Observations of Environmental Conditions on the Development of a Mesoscale Convective System in the Baiu Frontal Zone
    </h1>
    <div class="citation-box">
-    <p style="margin:0; font-family: 'Georgia', serif; font-size: 1.1em; color: #333;">
+    <p style="margin:0; font-family: 'Inter', sans-serif; font-size: 1.05em; color: var(--text-dark);">
      Manda, A. &amp; Tachibana, Y. &amp; Nakamura, H. &amp; Takikawa, T. &amp; Nishina, A. &amp; Moteki, Q. &amp;
      <strong>
       Zhao, N.
@@ -43,7 +55,7 @@
     <a class="btn-pdf" href="../pdfs/mandaetal2024.pdf" target="_blank">
      📄 Download Full PDF
     </a>
-    <a href="https://doi.org/10.1029/2023EA003486" style="align-self: center; color: var(--accent-color);" target="_blank">
+    <a href="https://doi.org/10.1029/2023EA003486" style="align-self: center; color: var(--primary-color); font-weight: 600; text-decoration: none;" target="_blank">
      View Publisher DOI
     </a>
    </div>

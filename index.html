@@ -1,20 +1,37 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zhao, Ning | Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <script>
+        // Prevent dark-mode flashing
+        (function () {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.classList.add('dark-mode');
+            }
+        })();
+    </script>
 </head>
+
 <body>
 
     <header>
         <div class="header-text">
             <h1>赵　宁 (Zhao, Ning)</h1>
             <p><strong>Researcher (tenured) | 副主任研究員</strong></p>
-            <p>Marine and Coastal Meteorology Research Group, Global Ocean Observation Research Center, Research Institute for Global Change <br>Japan Agency for Marine-Earth Science and Technology (JAMSTEC)</p>
+            <p>Marine and Coastal Meteorology Research Group, Global Ocean Observation Research Center, Research
+                Institute for Global Change <br>Japan Agency for Marine-Earth Science and Technology (JAMSTEC)</p>
             <div class="social-links">
                 <a href="https://orcid.org/0000-0002-1878-2974" target="_blank" title="ORCID">
                     <i class="fa-brands fa-orcid"></i>
@@ -26,52 +43,62 @@
                     <i class="ai ai-google-scholar"></i>
                 </a>
                 <a href="https://researchmap.jp/zhao_ning" target="_blank" title="Researchmap">
-                <i class="fa-solid fa-address-card"></i>
+                    <i class="fa-solid fa-address-card"></i>
                 </a>
                 <a href="mailto:zhaoning@jamstec.go.jp" title="Email">
                     <i class="fa-solid fa-envelope"></i>
                 </a>
             </div>
         </div>
-        
+
         <div class="header-photo-container">
             <img src="images/profile_photo.jpg" alt="Profile Photo" class="header-photo">
         </div>
     </header>
-    
+
     <nav>
-        <a href="#about">Profile</a>
-        <a href="#news">Recent News</a>
-        <a href="#publications">Publications</a>
-        <a href="#cv">Curriculum Vitae</a> 
-        <a href="#projects">Projects</a>
+        <div class="nav-links">
+            <a href="#about">Profile</a>
+            <a href="#news">Recent News</a>
+            <a href="#publications">Publications</a>
+            <a href="#cv">Curriculum Vitae</a>
+            <a href="#projects">Projects</a>
+        </div>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+            <i class="fa-solid fa-moon"></i>
+        </button>
     </nav>
-    
+
     <div id="about"></div>
-    <div id="about-placeholder"></div>
+    <div id="about-placeholder" class="placeholder-container"></div>
 
     <div id="news"></div>
-    <div id="news-placeholder"></div>
+    <div id="news-placeholder" class="placeholder-container"></div>
 
     <div id="publications"></div>
-    <div id="publications-placeholder"></div>
+    <div id="publications-placeholder" class="placeholder-container"></div>
 
     <div id="cv"></div>
-    <div id="cv-placeholder"></div>
+    <div id="cv-placeholder" class="placeholder-container"></div>
 
     <div id="projects"></div>
-    <div id="projects-placeholder"></div>
+    <div id="projects-placeholder" class="placeholder-container"></div>
 
     <script>
-        // Load
+        // Load Component with Fade-in animation
         function loadComponent(id, file) {
+            const container = document.getElementById(id);
             return fetch(file)
                 .then(response => {
                     if (!response.ok) throw new Error('网络请求错误: ' + file);
                     return response.text();
                 })
                 .then(data => {
-                    document.getElementById(id).innerHTML = data;
+                    container.innerHTML = data;
+                    // Trigger fade-in transitions
+                    requestAnimationFrame(() => {
+                        container.classList.add('fade-in');
+                    });
                 })
                 .catch(error => console.error('加载组件失败:', error));
         }
@@ -84,7 +111,7 @@
 
             if (!slider || !nextBtn || !prevBtn) return;
 
-            const scrollAmount = 450; 
+            const scrollAmount = 450;
             nextBtn.onclick = () => slider.scrollBy({ left: scrollAmount, behavior: 'smooth' });
             prevBtn.onclick = () => slider.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
 
@@ -108,10 +135,40 @@
             };
         }
 
+        // Theme Toggle Controller
+        function initThemeToggle() {
+            const themeToggleBtn = document.getElementById('theme-toggle');
+            const themeIcon = themeToggleBtn.querySelector('i');
+
+            function updateToggleIcon() {
+                if (document.documentElement.classList.contains('dark-mode')) {
+                    themeIcon.className = 'fa-solid fa-sun';
+                } else {
+                    themeIcon.className = 'fa-solid fa-moon';
+                }
+            }
+
+            // Sync toggle icon on load
+            updateToggleIcon();
+
+            themeToggleBtn.addEventListener('click', () => {
+                if (document.documentElement.classList.contains('dark-mode')) {
+                    document.documentElement.classList.remove('dark-mode');
+                    localStorage.setItem('theme', 'light');
+                } else {
+                    document.documentElement.classList.add('dark-mode');
+                    localStorage.setItem('theme', 'dark');
+                }
+                updateToggleIcon();
+            });
+        }
+
         // Load all components
-        window.onload = function() {
+        window.onload = function () {
+            initThemeToggle();
+
             loadComponent('about-placeholder', 'components/profile.html');
-            loadComponent('news-placeholder', 'components/news.html'); // 这个会被脚本实时更新
+            loadComponent('news-placeholder', 'components/news.html');
             loadComponent('cv-placeholder', 'components/cv_details.html');
             loadComponent('projects-placeholder', 'components/projects.html');
             loadComponent('publications-placeholder', 'components/publications.html')
@@ -121,8 +178,14 @@
         };
     </script>
 
-    <footer style="text-align: center; padding: 40px; color: #999; font-size: 0.9em;">
+    <footer
+        style="text-align: center; padding: 40px; color: var(--text-muted); font-size: 0.9em; border-top: 1px solid var(--border-color); margin-top: 50px;">
         &copy; 2026 赵宁 (Ning Zhao). Last Updated in 2026-05.
     </footer>
 </body>
+
+</html>ing Zhao). Last Updated in 2026-05.
+</footer>
+</body>
+
 </html>

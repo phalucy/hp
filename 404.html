@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Not Found | Ning Zhao</title>
-    <link rel="stylesheet" href="css/style.css"> <style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
         .error-container {
             max-width: 600px;
             margin: 100px auto;
@@ -16,11 +20,13 @@
             font-weight: bold;
             color: var(--primary-color);
             margin-bottom: 20px;
+            font-family: 'Outfit', sans-serif;
         }
         .error-message {
-            font-size: 20px;
-            color: #333;
+            font-size: 24px;
+            color: var(--text-dark);
             margin-bottom: 30px;
+            font-family: 'Outfit', sans-serif;
         }
         .home-btn {
             display: inline-block;
@@ -28,12 +34,14 @@
             background-color: var(--primary-color);
             color: white;
             text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            transition: opacity 0.3s;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
         }
         .home-btn:hover {
-            opacity: 0.9;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 119, 182, 0.2);
+            opacity: 0.95;
         }
     </style>
 </head>
@@ -41,14 +49,14 @@
     <div class="error-container">
         <div class="error-code">404</div>
         <h1 class="error-message">Oops! This page has drifted away.</h1>
-        <p style="color: #666; margin-bottom: 40px;">
+        <p style="color: var(--text-muted); margin-bottom: 40px;">
             The link you followed may be broken, or the page may have been moved.
         </p>
         <a href="index.html" class="home-btn">Return to Homepage</a>
         
-        <div style="margin-top: 60px; font-size: 0.9em; color: #999;">
+        <div style="margin-top: 60px; font-size: 0.9em; color: var(--text-muted);">
             <p>If you believe this is an error, please contact me at: <br>
-            <strong>your-email@example.com</strong></p>
+            <strong style="color: var(--primary-color);">zhaoning@jamstec.go.jp</strong></p>
         </div>
     </div>
 </body>
